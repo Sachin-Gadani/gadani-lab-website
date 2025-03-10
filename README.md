@@ -5,6 +5,6 @@
 
   # Sachin-Gadani's Website
 
-  Visit **[sachin-gadani.github.io/gadani-lab-website](https://sachin-gadani.github.io/gadani-lab-website)** 🚀
+  Visit **[www.gadani-lab.com](http://www.gadani-lab.com)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
