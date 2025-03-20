@@ -1,1 +1,1 @@
-Sitemap: https://sachin-gadani.github.io/gadani-lab-website/sitemap.xml
+Sitemap: https://gadani-lab.com/sitemap.xml
