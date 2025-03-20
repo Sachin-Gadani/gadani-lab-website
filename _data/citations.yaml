@@ -1,174 +1,441 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
+- id: doi:10.7554/eLife.88414
+  title: Spatial transcriptomics of meningeal inflammation reveals inflammatory gene
+    signatures in adjacent brain parenchyma
   authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
+  - Sachin P Gadani
+  - Saumitra Singh
+  - Sophia Kim
+  - Jingwen Hu
+  - Matthew D Smith
+  - Peter A Calabresi
+  - Pavan Bhargava
+  publisher: eLife
+  date: '2024-10-30'
+  link: https://doi.org/g88678
+  orcid: 0000-0002-9555-4553
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
+- id: doi:10.7554/eLife.88414.4
+  title: Spatial transcriptomics of meningeal inflammation reveals inflammatory gene
+    signatures in adjacent brain parenchyma
   authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
+  - Sachin P Gadani
+  - Saumitra Singh
+  - Sophia Kim
+  - Jingwen Hu
+  - Matthew D Smith
+  - Peter A Calabresi
+  - Pavan Bhargava
+  publisher: eLife
+  date: '2024-10-30'
+  link: https://doi.org/g8868b
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2024.01.17.24301393
+  title: Bile acid metabolites predict multiple sclerosis progression and supplementation
+    is safe in progressive disease
+  authors:
+  - Dimitrios C. Ladakis
+  - Kimystian L. Harrison
+  - Matthew D. Smith
+  - Krista Solem
+  - Sachin Gadani
+  - Larissa Jank
+  - Soonmyung Hwang
+  - Farzaneh Farhadi
+  - Blake E. Dewey
+  - Kathryn C. Fitzgerald
+  - Elias S. Sotirchos
+  - Shiv Saidha
+  - Peter A. Calabresi
+  - Pavan Bhargava
   publisher: Cold Spring Harbor Laboratory
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
+  date: '2024-01-21'
+  link: https://doi.org/g8868c
+  orcid: 0000-0002-9555-4553
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
+- id: doi:10.1177/13524585231213164
+  title: Serum macrophage migration inhibitory factor levels predict brain atrophy
+    in people with primary progressive multiple sclerosis
   authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
+  - Dimitrios C Ladakis
+  - Maria I Reyes-Mantilla
+  - Sachin P Gadani
+  - Jackson W Mace
+  - Susana C Dominguez-Penuela
+  - Mayaa J Appiah
+  - Matthew D Smith
+  - Pavan Bhargava
+  - Robert J Fox
+  - Shiv Saidha
+  - Peter A Calabresi
+  publisher: Multiple Sclerosis Journal
+  date: '2023-11-20'
+  link: https://doi.org/g8868d
+  orcid: 0000-0002-9555-4553
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
+- id: doi:10.1002/eji.202250228
+  title: Emerging imaging and liquid biomarkers in multiple sclerosis
   authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
+  - Alexander J. Gill
+  - Emily M. Schorr
+  - Sachin P. Gadani
+  - Peter A. Calabresi
+  publisher: European Journal of Immunology
+  date: '2023-05-28'
+  link: https://doi.org/g8868f
+  orcid: 0000-0002-9555-4553
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
+- id: doi:10.1016/j.cell.2023.07.025
+  title: 'The calvaria stands alone: Unique aspects of the skull bone marrow-meninges
+    border'
   authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
+  - Sachin P. Gadani
+  - Peter A. Calabresi
+  publisher: Cell
+  date: '2023-08-01'
+  link: https://doi.org/g8868g
+  orcid: 0000-0002-9555-4553
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
+- id: doi:10.7554/eLife.88414.1
+  title: Spatial Transcriptomics of Meningeal Inflammation Reveals Variable Penetrance
+    of Inflammatory Gene Signatures into Adjacent Brain Parenchyma
   authors:
-  - Jacob D Krol
-  - Joseph T Burke
-  - Samuel Z Chen
-  - Lo M Sosinski
-  - Faisal S Alquaddoomi
-  - Evan P Brenner
-  - Ethan P Wolfe
-  - Vincent P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
-  publisher: Cold Spring Harbor Laboratory
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
+  - Sachin P. Gadani
+  - Saumitra Singh
+  - Sophia Kim
+  - Matthew D. Smith
+  - Peter A. Calabresi
+  - Pavan Bhargava
+  publisher: eLife Sciences Publications, Ltd
+  date: '2023-07-11'
+  link: https://doi.org/g8868h
+  orcid: 0000-0002-9555-4553
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
+- id: doi:10.1159/000526295
+  title: 'Successful Thrombectomy for Large Vessel Occlusion after Emergent Transoceanic
+    Patient Transport: An International Hub and Spoke Collaboration'
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
+  - Sachin P. Gadani
+  - Francene Gayle
+  - Phillip Jones
+  - Phillipe Gailloud
+  - Roland Faigle
+  - Victor C. Urrutia
+  publisher: Cerebrovascular Diseases
+  date: '2022-10-04'
+  link: https://doi.org/g8868j
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.7759/cureus.27928
+  title: Acute Necrotizing Encephalitis as an Early Manifestation of COVID-19
+  authors:
+  - Sachin Gadani
+  - Adam Cohen
+  publisher: Cureus
+  date: '2022-08-12'
+  link: https://doi.org/g8868k
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1126/scitranslmed.abm7204
+  title: "DICAM, a molecular passport for T\n            <sub>H</sub>\n          \
+    \  17 cell entry into the brain"
+  authors:
+  - Sachin P. Gadani
+  - Michael D. Kornberg
+  publisher: Science Translational Medicine
+  date: '2022-01-05'
+  link: https://doi.org/g8868m
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.nerep.2021.100003
+  title: Neurosyphilis, MOGAD or both? A case of meningoencephalomyelitis associated
+    with MOG-IgG seropositivity in a patient with syphilis
+  authors:
+  - Julie C. Gudenkauf
+  - Sachin P. Gadani
+  - Justin C. McArthur
+  - Elias S. Sotirchos
+  publisher: Neuroimmunology Reports
+  date: '2021-12-01'
+  link: https://doi.org/g8868n
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.ebiom.2021.103636
+  title: Discordant humoral and T cell immune responses to SARS-CoV-2 vaccination
+    in people with multiple sclerosis on anti-CD20 therapy
+  authors:
+  - Sachin P. Gadani
+  - Maria Reyes-Mantilla
+  - Larissa Jank
+  - Samantha Harris
+  - Morgan Douglas
+  - Matthew D. Smith
+  - Peter A. Calabresi
+  - Ellen M. Mowry
+  - Kathryn C. Fitzgerald
+  - Pavan Bhargava
+  publisher: EBioMedicine
+  date: '2021-11-01'
+  link: https://doi.org/g88679
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.7759/cureus.5823
+  title: Granulomatosis with Polyangiitis Manifesting as a Symptomatic Sellar Mass
+    in a Young Woman
+  authors:
+  - Sachin P Gadani
+  - Rohini Nadgir
+  - Annika Windon
+  - Lisa Rooper
+  - Fahid Alghanim
+  publisher: Cureus
+  date: '2019-10-02'
+  link: https://doi.org/ghs4s5
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/nrn.2017.39
+  title: How and why do T cells and their derived cytokines affect the injured and
+    healthy brain?
+  authors:
+  - Anthony J. Filiano
+  - Sachin P. Gadani
+  - Jonathan Kipnis
+  publisher: Nature Reviews Neuroscience
+  date: '2017-04-27'
+  link: https://doi.org/ggzn6m
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1084/jem.20161982
+  title: Characterization of meningeal type 2 innate lymphocytes and their response
+    to CNS injury
+  authors:
+  - Sachin P. Gadani
+  - Igor Smirnov
+  - Ashtyn T. Wiltbank
+  - Christopher C. Overall
+  - Jonathan Kipnis
+  publisher: Journal of Experimental Medicine
+  date: '2016-12-19'
+  link: https://doi.org/gbgf6p
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/nature18626
+  title: "Unexpected role of interferon-\u03B3 in regulating neuronal connectivity\
+    \ and social behaviour"
+  authors:
+  - Anthony J. Filiano
+  - Yang Xu
+  - Nicholas J. Tustison
+  - Rachel L. Marsh
+  - Wendy Baker
+  - Igor Smirnov
+  - Christopher C. Overall
+  - Sachin P. Gadani
+  - Stephen D. Turner
+  - Zhiping Weng
+  - Sayeda Najamussahar Peerzade
+  - Hao Chen
+  - Kevin S. Lee
+  - Michael M. Scott
+  - Mark P. Beenhakker
+  - Vladimir Litvak
+  - Jonathan Kipnis
+  publisher: Nature
+  date: '2016-07-01'
+  link: https://doi.org/f62mxs
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/nn.4227
+  title: Natural killers in the brain's nursery
+  authors:
+  - Sachin P Gadani
+  - Jonathan Kipnis
+  publisher: Nature Neuroscience
+  date: '2016-01-27'
+  link: https://doi.org/g8868p
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1084/jem.2132insight2
+  title: Shedding light on IL-33 in the eye
+  authors:
+  - Sachin P. Gadani
+  - Jonathan Kipnis
+  publisher: Journal of Experimental Medicine
+  date: '2016-02-08'
+  link: https://doi.org/g8868q
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.brainres.2014.07.050
+  title: Interactions of innate and adaptive immunity in brain development and function
+  authors:
+  - Anthony J. Filiano
+  - Sachin P. Gadani
+  - Jonathan Kipnis
+  publisher: Brain Research
+  date: '2015-08-01'
+  link: https://doi.org/ghwqp8
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.neuron.2015.05.019
+  title: 'Dealing with Danger in the CNS: The Response of the Immune System to Injury'
+  authors:
+  - "Sachin\_P. Gadani"
+  - "James\_T. Walsh"
+  - "John\_R. Lukens"
+  - Jonathan Kipnis
+  publisher: Neuron
+  date: '2015-07-01'
+  link: https://doi.org/f7qks6
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/ni.3145
+  title: Brainless immunity no more
+  authors:
+  - Sachin P Gadani
+  - Jonathan Kipnis
+  publisher: Nature Immunology
+  date: '2015-04-21'
+  link: https://doi.org/g8868r
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1172/JCI76210
+  title: MHCII-independent CD4+ T cells protect injured CNS neurons via IL-4
+  authors:
+  - James T. Walsh
+  - Sven Hendrix
+  - Francesco Boato
+  - Igor Smirnov
+  - Jingjing Zheng
+  - John R. Lukens
+  - Sachin Gadani
+  - Daniel Hechler
+  - "Greta G\xF6lz"
+  - Karen Rosenberger
+  - "Thomas Kammert\xF6ns"
+  - Johannes Vogt
+  - Christina Vogelaar
+  - Volker Siffrin
+  - Ali Radjavi
+  - Anthony Fernandez-Castaneda
+  - Alban Gaultier
+  - Ralf Gold
+  - Thirumala-Devi Kanneganti
+  - Robert Nitsch
+  - Frauke Zipp
+  - Jonathan Kipnis
+  publisher: Journal of Clinical Investigation
+  date: '2015-01-20'
+  link: https://doi.org/f6x9hp
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.neuron.2015.01.013
+  title: The Glia-Derived Alarmin IL-33 Orchestrates the Immune Response and Promotes
+    Recovery following CNS Injury
+  authors:
+  - "Sachin\_P. Gadani"
+  - "James\_T. Walsh"
+  - Igor Smirnov
+  - Jingjing Zheng
+  - Jonathan Kipnis
+  publisher: Neuron
+  date: '2015-02-01'
+  link: https://doi.org/f627p4
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.jneuroim.2014.08.543
+  title: Chemokine-induced trafficking of T cells into the meninges through the brain
+    "gates"
+  authors:
+  - Antoine Louveau
+  - Sachin Gadani
+  - Tajie Harris
+  - Jonathan Kipnis
+  publisher: Journal of Neuroimmunology
+  date: '2014-10-01'
+  link: https://doi.org/g8868s
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.4049/jimmunol.1202246
+  title: 'IL-4 in the Brain: A Cytokine To Remember'
+  authors:
+  - Sachin P. Gadani
+  - James C. Cronk
+  - Geoffrey T. Norris
+  - Jonathan Kipnis
+  publisher: The Journal of Immunology
+  date: '2012-11-01'
+  link: https://doi.org/gqqxmm
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2147/RRB.S16091
+  title: SSR markers developed for genetic mapping in flax (Linum usitatissimum L.)
+  authors:
+  - Chris Cullis
+  - ' Bickel'
+  - ' Gadani'
+  - ' Lukacs'
+  publisher: Research and Reports in Biology
+  date: '2011-03-01'
+  link: https://doi.org/cbshm6
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/cddis.2011.80
+  title: Distribution of CD133 reveals glioma stem cells self-renew through symmetric
+    and asymmetric cell divisions
+  authors:
+  - J D Lathia
+  - M Hitomi
+  - J Gallagher
+  - S P Gadani
+  - J Adkins
+  - A Vasanji
+  - L Liu
+  - C E Eyler
+  - J M Heddleston
+  - Q Wu
+  - S Minhas
+  - A Soeda
+  - D J Hoeppner
+  - R Ravin
+  - R D G McKay
+  - R E McLendon
+  - D Corbeil
+  - A Chenn
+  - A B Hjelmeland
+  - D M Park
+  - J N Rich
+  publisher: Cell Death &amp; Disease
+  date: '2011-09-01'
+  link: https://doi.org/bckv87
+  orcid: 0000-0002-9555-4553
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1371/journal.pcbi.1007128
@@ -184,9 +451,6 @@
   publisher: PLOS Computational Biology
   date: '2020-12-04'
   link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
   type: paper
   description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
     do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -203,21 +467,8 @@
   - open science
   - collaboration
   repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1016/j.csbj.2020.05.017
   title: Constructing knowledge graphs and their biomedical applications
   authors:
