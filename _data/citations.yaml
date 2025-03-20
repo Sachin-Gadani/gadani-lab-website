@@ -15,8 +15,8 @@
   date: '2024-10-30'
   link: https://doi.org/g88678
   orcid: 0000-0002-9555-4553
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.7554/eLife.88414.4
   title: Spatial transcriptomics of meningeal inflammation reveals inflammatory gene
     signatures in adjacent brain parenchyma
@@ -191,8 +191,8 @@
   date: '2021-11-01'
   link: https://doi.org/g88679
   orcid: 0000-0002-9555-4553
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.7759/cureus.5823
   title: Granulomatosis with Polyangiitis Manifesting as a Symptomatic Sellar Mass
     in a Young Woman
@@ -234,8 +234,8 @@
   date: '2016-12-19'
   link: https://doi.org/gbgf6p
   orcid: 0000-0002-9555-4553
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1038/nature18626
   title: "Unexpected role of interferon-\u03B3 in regulating neuronal connectivity\
     \ and social behaviour"
@@ -261,8 +261,8 @@
   date: '2016-07-01'
   link: https://doi.org/f62mxs
   orcid: 0000-0002-9555-4553
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1038/nn.4227
   title: Natural killers in the brain's nursery
   authors:
@@ -308,8 +308,8 @@
   date: '2015-07-01'
   link: https://doi.org/f7qks6
   orcid: 0000-0002-9555-4553
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1038/ni.3145
   title: Brainless immunity no more
   authors:
@@ -365,8 +365,8 @@
   date: '2015-02-01'
   link: https://doi.org/f627p4
   orcid: 0000-0002-9555-4553
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1016/j.jneuroim.2014.08.543
   title: Chemokine-induced trafficking of T cells into the meninges through the brain
     "gates"
@@ -392,8 +392,8 @@
   date: '2012-11-01'
   link: https://doi.org/gqqxmm
   orcid: 0000-0002-9555-4553
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.2147/RRB.S16091
   title: SSR markers developed for genetic mapping in flax (Linum usitatissimum L.)
   authors:
@@ -438,61 +438,26 @@
   orcid: 0000-0002-9555-4553
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
+- id: doi:10.1016/j.neuron.2024.05.025
+  title: Neurodegeneration and demyelination in multiple sclerosis
   authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2020-12-04'
-  link: https://doi.org/c7np
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
-  - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
-  tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
+  - Thomas Garton
+  - Sachin P. Gadani
+  - Alexander J. Gill
+  - Peter A. Calabresi
+  publisher: Neuron
+  date: '2024-10-01'
+  link: https://doi.org/g8rjcm
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
+- id: doi:10.1038/nri3280
+  title: Pro-cognitive properties of T cells
   authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
-  authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+  - Jonathan Kipnis
+  - Sachin Gadani
+  - "No\xEBl C. Derecki"
+  publisher: Nature Reviews Immunology
+  date: '2012-08-20'
+  link: https://doi.org/ghs4g9
   plugin: sources.py
   file: sources.yaml
