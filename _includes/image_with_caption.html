@@ -1,6 +1,37 @@
-```html
-
+{% comment %}
+  Self-contained Image with Caption Include
+  No external CSS required - all styling is inline
   
-  {{ include.caption }}
+  Parameters:
+  - image_path: Path to the image file (required)
+  - alt_text: Alternative text for the image (required)
+  - caption: Caption text to display below the image (optional)
+  - width: Custom width with CSS units (optional, default: 300px)
+  - align: Image alignment - 'left', 'right', or 'center' (default: 'left')
+{% endcomment %}
 
-```
+{% assign image_width = include.width | default: '300px' %}
+{% assign alignment = include.align | default: 'left' %}
+
+{% if alignment == 'left' %}
+<div style="float: left; margin-right: 20px; margin-bottom: 15px; max-width: 100%; width: {{ image_width }};">
+  <img src="{{ include.image_path }}" alt="{{ include.alt_text }}" style="width: 100%; display: block; height: auto;">
+  {% if include.caption %}
+  <div style="font-size: 0.9em; color: #666; margin-top: 8px; font-style: italic; line-height: 1.4;">{{ include.caption }}</div>
+  {% endif %}
+</div>
+{% elsif alignment == 'right' %}
+<div style="float: right; margin-left: 20px; margin-bottom: 15px; max-width: 100%; width: {{ image_width }};">
+  <img src="{{ include.image_path }}" alt="{{ include.alt_text }}" style="width: 100%; display: block; height: auto;">
+  {% if include.caption %}
+  <div style="font-size: 0.9em; color: #666; margin-top: 8px; font-style: italic; line-height: 1.4;">{{ include.caption }}</div>
+  {% endif %}
+</div>
+{% else %}
+<div style="display: block; margin-left: auto; margin-right: auto; margin-bottom: 15px; max-width: 100%; width: {{ image_width }}; text-align: center;">
+  <img src="{{ include.image_path }}" alt="{{ include.alt_text }}" style="width: 100%; display: block; height: auto; margin: 0 auto;">
+  {% if include.caption %}
+  <div style="font-size: 0.9em; color: #666; margin-top: 8px; font-style: italic; line-height: 1.4; text-align: center;">{{ include.caption }}</div>
+  {% endif %}
+</div>
+{% endif %}
