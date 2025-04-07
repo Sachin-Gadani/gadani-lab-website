@@ -1,9 +1,9 @@
 # site properties and page defaults
-title: Translational Neuroimmunology Research at Pitt
-subtitle: The Gadani-Lab
-description: Neuroimmunology research group at the University of Pittsburgh, unraveling the neuroimmunology of progressive multiple sclerosis and other conditions to inspire the next generation of treatments.
-header: images/background.jpg
-footer: images/background.jpg
+title: The Gadani Lab
+subtitle: Translational Neuroimmunology Research at Pitt
+description: Neuroimmunology research group at the University of Pittsburgh. Unraveling the neuroimmunology of progressive multiple sclerosis and other conditions to inspire the next generation of treatments.
+header: images/background.png
+footer: images/background.png
 proofer: false
 
 # site social media and other links
