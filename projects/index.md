@@ -17,7 +17,7 @@ Progressive neurodegenerative conditions, including progressive multiple scleros
     image_path="../images/IL33-signaling-pathway.png" 
     alt_text="IL-33 signaling cascade" 
     caption="IL-33 signaling. IL-33 binds to a hetero-dimer of ST2L and IL1RAcP, activating a cascade through MyD88, NFB, ERK, and AP-1. sST2 is a decoy receptor that inhibits IL-33. MG = microglia; AC = astrocyte."
-    width="40%"
+    width="10%"
     align="right"
   %}
 
