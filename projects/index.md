@@ -13,7 +13,7 @@ Progressive neurodegenerative conditions, including progressive multiple scleros
 
 ### IL-33 is a central nervous system (CNS) alarmin
 
-  {% include image_with_caption.html 
+  {% include figure.html 
     image_path="../images/IL33-signaling-pathway.png" 
     alt_text="IL-33 signaling cascade" 
     caption="IL-33 signaling. IL-33 binds to a hetero-dimer of ST2L and IL1RAcP, activating a cascade through MyD88, NFB, ERK, and AP-1. sST2 is a decoy receptor that inhibits IL-33. MG = microglia; AC = astrocyte."
@@ -22,10 +22,10 @@ Progressive neurodegenerative conditions, including progressive multiple scleros
 
 IL-33 is a nuclear cytokine expressed in the healthy CNS and released upon injury or stress by oligodendrocytes and astrocytes. Once released, IL-33 binds to its receptor, a heterodimer of ST2L and IL1RAcP (ST2L), enhancing regulatory and type 2 inflammation through MyD88-dependent signaling in Th2 cells, Tregs, and type 2 innate lymphocytes (ILC2s). A decoy form of the receptor, sST2, inhibits IL-33 signaling. Interestingly, IL-33 is elevated in the CNS, cerebrospinal fluid (CSF), and plasma of people with multiple sclerosis (Pwmultiple sclerosis), and appears to be beneficial; plasma IL-33 correlates with decreased multiple sclerosis lesion burden. IL-33 is similarly increased in mice with experimental autoimmune encephalomyelitis (EAE) and in the corpus callosum of mice fed the demyelinating toxin cuprizone (CPZ), and appears to promote recovery in those models. While IL-33 promotes recovery in the brain, the underlying beneficial mechanisms in the CNS remain poorly understood. We are studying this pathway using single cell RNA sequencing, animal models, and novel pharmacologics.
 
-  {% include image_with_caption.html 
-    image_path="../images/IL33-signaling-pathway.png" 
-    alt_text="IL-33 signaling cascade" 
-    caption="IL-33 signaling. IL-33 binds to a hetero-dimer of ST2L and IL1RAcP, activating a cascade through MyD88, NFB, ERK, and AP-1. sST2 is a decoy receptor that inhibits IL-33. MG = microglia; AC = astrocyte." 
+  {% include figure.html 
+    image_path="../images/eae-il33-expression-increases.png" 
+    alt_text="IL-33 expression increases during EAE" 
+    caption="IL-33 upregulation in chronic EAE. L-cord was collected at day 42 EAE. (A) representa-tive images of IL-33+ cells. (B) Mean IL-33 MFI of IL-33+ cells. (C) density of IL-33+ cells. N = 4, 30 sections per mouse; Student’s two-tailed T test." 
     width="60%"
   %}
 
