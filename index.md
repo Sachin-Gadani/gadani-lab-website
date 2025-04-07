@@ -1,17 +1,14 @@
 ---
 ---
 
-# Sachin-Gadani's Website
-
-An engaging 1-3 sentence description of your lab.
+# Neuroimmunology @ Pitt
+While there are several effective treatments for relapsing multiple sclerosis, no available therapy substantially slows progression. Chronic, non-resolving brain and glial cell inflammation underlies this progression. Our goal is to unravel the neuroimmunology of progressive multiple sclerosis and other conditions to inspire the next generation of therapies. 
 
 {% include section.html %}
 
 ## Highlights
 
 {% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 {%
   include button.html
@@ -33,8 +30,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 %}
 
 {% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 {%
   include button.html
@@ -59,7 +54,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+The Gadani Lab is hiring at all levels, contact gadanis1@pitt.edu for more details! 
 
 {%
   include button.html
