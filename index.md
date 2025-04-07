@@ -23,7 +23,7 @@ While there are several effective treatments for relapsing multiple sclerosis, n
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/index_research_ng2_dsred_cx3cr1_gfp_il33_647.tif"
   link="research"
   title="Our Research"
   text=text
@@ -44,7 +44,7 @@ While there are several effective treatments for relapsing multiple sclerosis, n
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/index_projects_spatial_transcriptomics_representative.png"
   link="projects"
   title="Our Projects"
   flip=true
@@ -69,7 +69,7 @@ The Gadani Lab is hiring at all levels, contact gadanis1@pitt.edu for more detai
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/Challenger_Approaching_Jigglypuff%28SSB%29.webp"
   link="team"
   title="Our Team"
   text=text
