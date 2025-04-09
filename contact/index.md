@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Our lab is hiring for all levels, including lab technician / manager and post-doctoral associate. Interested individuals should send a brief statement of interest, their CV, and contact for 2-3 professional references to gadanis1@pitt.edu
+Our lab is hiring for all levels, including lab technician / manager and post-doctoral associate. Interested individuals should send a brief statement of interest, their CV, and contact for 2-3 professional references to <gadanis1@pitt.edu>
 
 {%
   include button.html
