@@ -23,7 +23,7 @@ While there are several effective treatments for relapsing multiple sclerosis, n
 
 {%
   include feature.html
-  image="images/index_research_ng2_dsred_cx3cr1_gfp_il33_647.tif"
+  image="images/index_research_ng2_dsred_cx3cr1_gfp_il33_647.png"
   link="research"
   title="Our Research"
   text=text
