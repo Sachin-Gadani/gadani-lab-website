@@ -1,7 +1,7 @@
 ---
 name: Henry McCoy
 image: images/beast.png
-role: phd
+role: staff
 group: alum
 alias: Beast 
 ---
