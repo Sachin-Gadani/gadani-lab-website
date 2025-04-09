@@ -31,7 +31,7 @@ $wrap: 800px;
 }
 
 .feature-title {
-  font-size: var(--xx-large);
+  font-size: calc(var(--large) * 3);
   text-align: center;
   font-family: var(--heading);
   font-weight: var(--semi-bold);
