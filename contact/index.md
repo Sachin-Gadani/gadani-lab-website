@@ -22,7 +22,7 @@ Our lab is hiring for all levels, including lab technician / manager and post-do
   text="3501 Fifth Avenue 
 BST3, 10051 12A
 Pittsburgh, PA 15260"
-  link="[https://www.google.com/maps   https://www.google.com/maps/place/Biomedical+Science+Tower+3,+3501+Fifth+Ave,+Pittsburgh,+PA+15213/@40.4409881,-79.9614334,763m/data=!3m2!1e3!4b1!4m6!3m5!1s0x8834f22a76354155:0xe55f602e26f86aa7!8m2!3d40.4409881!4d-79.9601005!16s%2Fg%2F12hqmtmjd?entry=ttu&g_ep=EgoyMDI1MDQwNi4wIKXMDSoASAFQAw%3D%3D](https://www.google.com/maps/place/Biomedical+Science+Tower+3,+3501+Fifth+Ave,+Pittsburgh,+PA+15213/@40.4409881,-79.9614334,763m/data=!3m2!1e3!4b1!4m6!3m5!1s0x8834f22a76354155:0xe55f602e26f86aa7!8m2!3d40.4409881!4d-79.9601005!16s%2Fg%2F12hqmtmjd?entry=ttu&g_ep=EgoyMDI1MDQwNi4wIKXMDSoASAFQAw%3D%3D)"
+  link="(https://www.google.com/maps/place/Biomedical+Science+Tower+3,+3501+Fifth+Ave,+Pittsburgh,+PA+15213/@40.4409881,-79.9614334,763m/data=!3m2!1e3!4b1!4m6!3m5!1s0x8834f22a76354155:0xe55f602e26f86aa7!8m2!3d40.4409881!4d-79.9601005!16s%2Fg%2F12hqmtmjd?entry=ttu&g_ep=EgoyMDI1MDQwNi4wIKXMDSoASAFQAw%3D%3D)"
 %}
 
 {% include section.html %}
