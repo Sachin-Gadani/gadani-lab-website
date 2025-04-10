@@ -7,4 +7,4 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
 
-Coming soon
+Under construction
