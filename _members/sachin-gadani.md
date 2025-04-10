@@ -6,6 +6,11 @@ affiliation: University of Pittsburgh
 aliases:
   - S.P. Gadani
   - S Gadani
+  - Sachin P Gadani
+  - Sachin P. Gadani
+  - Sachin Gadani
+  - Gadani S
+  - Gadani SP
 links:
   home-page: https://gadani-lab.com
   orcid: 0000-0002-9555-4553
