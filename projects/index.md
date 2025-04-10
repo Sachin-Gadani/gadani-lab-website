@@ -16,8 +16,8 @@ Neurodegenerative conditions including progressive multiple sclerosis, Alzheimer
   {% include image_with_caption.html 
     image_path="../images/IL33-signaling-pathway.png" 
     alt_text="IL-33 signaling cascade" 
-    caption="IL-33 signaling. IL-33 binds to a hetero-dimer of ST2L and IL1RAcP, activating a cascade through MyD88, NFB, ERK, and AP-1. sST2 is a decoy receptor that inhibits IL-33. MG = microglia; AC = astrocyte."
-    width="250px"
+    caption="IL-33 signaling. IL-33 binds to a hetero-dimer of ST2L and IL1RAcP, activating a cascade through MyD88 and NF`$\kappa$`B. sST2 is a decoy receptor that inhibits IL-33."
+    width="200px"
     align="right"
   %}
 
@@ -31,7 +31,8 @@ Neuropsychiatric symptoms in multiple sclerosis are prevalent, with 60% of patie
     image_path="../images/meninges_inflammation_scheme.png" 
     alt_text="Meningeal inflammation and sub-pial lesions" 
     caption="Meningeal immune follicles form in the sub-arachnoid space and overlie sub-pial lesions in multiple sclerosis." 
-    width="250px"
+    width="300px"
+    align="right"
   %}
   
 ### Inflammation in the subarachnoid space spatially relates to GMP
