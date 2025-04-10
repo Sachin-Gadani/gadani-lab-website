@@ -10,10 +10,10 @@ proofer: false
 links:
   email: gadanis1@pitt.edu
   orcid: 0000-0002-9555-4553
-  google-scholar: RTnqJjAAAAAJ
-  github: Sachin-Gadani
-  twitter: SachinGadani
-  youtube: Sachin-Gadani
+  google-scholar: https://scholar.google.com/citations?user=RTnqJjAAAAAJ&hl=en
+  github: https://github.com/Sachin-Gadani/
+  twitter: https://x.com/SachinGadani
+  bluesky: https://bsky.app/profile/saching.bsky.social
 
 ### jekyll settings
 
