@@ -31,8 +31,8 @@ Pittsburgh, PA 15260"
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/labWindow.jpg"
+  caption="View of Oakland and the Monongahela river from our lab window."
 %}
 
 {% endcapture %}
@@ -41,8 +41,8 @@ Pittsburgh, PA 15260"
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/Downtown_Pittsburgh_from_Duquesne_Incline_in_the_morning.jpg"
+  caption="Downtown Pittsburgh from the Duqesne Incline. (Dllu, Wikimedia)"
 %}
 
 {% endcapture %}
