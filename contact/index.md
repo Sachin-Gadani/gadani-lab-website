@@ -52,12 +52,12 @@ Pittsburgh, PA 15260"
 {% include section.html dark=true %}
 
 {% capture col1 %}
-The Gadani Lab
-University of Pittsburgh
-Department of Neurology, PIND
-3501 Fifth Avenue 
-BST3, 10051 12A
-Pittsburgh, PA 15260
+The Gadani Lab\
+University of Pittsburgh\
+Department of Neurology, PIND\
+3501 Fifth Avenue\
+BST3, 10051 12A\
+Pittsburgh, PA 15260\
 
 {% endcapture %}
 
