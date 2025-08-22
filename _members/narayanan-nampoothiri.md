@@ -1,7 +1,7 @@
 ---
 name: Narayanan Nampoothiri V.P.
 image: images/narayanan-nampoothiri.jpg
-role: senior lab technician
+role: lab-technician
 affiliation: University of Pittsburgh
 aliases:
   - Narayanan Nampoothiri V.P.
