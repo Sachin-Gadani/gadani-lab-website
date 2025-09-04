@@ -1,7 +1,7 @@
 ---
 name: David Geyfman
 image: images/david-geyfman.jpg
-role: undergraduate
+role: undergrad
 affiliation: University of Pittsburgh
 aliases:
   - Geyfman,  D
