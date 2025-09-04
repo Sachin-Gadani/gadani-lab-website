@@ -16,7 +16,7 @@ Neurodegenerative conditions including progressive multiple sclerosis, Alzheimer
   {% include image_with_caption.html 
     image_path="../images/IL33-signaling-pathway.png" 
     alt_text="IL-33 signaling cascade" 
-    caption="IL-33 signaling. IL-33 binds to a hetero-dimer of ST2L and IL1RAcP, activating a cascade through MyD88 and NF`$\kappa$`B. sST2 is a decoy receptor that inhibits IL-33."
+    caption="IL-33 signaling. IL-33 binds to a hetero-dimer of ST2L and IL1RAcP, activating a cascade through MyD88 and NF$\kappa$B. sST2 is a decoy receptor that inhibits IL-33."
     width="200px"
     align="right"
   %}
