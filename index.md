@@ -2,7 +2,7 @@
 ---
 
 # Translational Neuroimmunology lab @ Pitt
-While there are several effective treatments for relapsing multiple sclerosis, no available therapy substantially slows progression. Chronic, non-resolving brain and glial cell inflammation underlies this progression. Our goal is to unravel the neuroimmunology of progressive multiple sclerosis and other conditions to inspire the next generation of therapies. 
+The immune and nervous systems are intricately linked, and their bi-directional communication maintains human health and influences disease outcomes. We study clinically relevant neuroimmune interactions, focusing on Multiple Sclerosis, seeking to reveal mechanisms underlying MS progression and failed remyelination.
 
 {% include section.html %}
 
