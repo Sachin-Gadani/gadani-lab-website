@@ -1,5 +1,54 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1016/j.medj.2024.09.011
+  title: Bile acid metabolites predict multiple sclerosis progression and supplementation
+    is safe in progressive disease
+  authors:
+  - Dimitrios C. Ladakis
+  - Kimystian L. Harrison
+  - Matthew D. Smith
+  - Krista Solem
+  - Sachin Gadani
+  - Larissa Jank
+  - Soonmyung Hwang
+  - Farzaneh Farhadi
+  - Blake E. Dewey
+  - Kathryn C. Fitzgerald
+  - Elias S. Sotirchos
+  - Shiv Saidha
+  - Peter A. Calabresi
+  - Pavan Bhargava
+  publisher: Med
+  date: '2025-03-01'
+  link: https://doi.org/g9x386
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1186/s12974-025-03339-0
+  title: NLRX1 limits inflammatory neurodegeneration in the anterior visual pathway
+  authors:
+  - Alexander J. Gill
+  - Matthew D. Smith
+  - Danny Galleguillos
+  - Thomas Garton
+  - Jackson W. Mace
+  - Sachin P. Gadani
+  - Swati Kumar
+  - Aayush Pokharel
+  - Krista Solem
+  - Saahith Potluri
+  - Omar Hussein
+  - Giuliana Sardi Rogines
+  - Arihant Singh
+  - Annatje Clark
+  - Peter A. Calabresi
+  - Marjan Gharagozloo
+  publisher: Journal of Neuroinflammation
+  date: '2025-01-28'
+  link: https://doi.org/g9x387
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.7554/eLife.88414
   title: Spatial transcriptomics of meningeal inflammation reveals inflammatory gene
     signatures in adjacent brain parenchyma
@@ -15,8 +64,8 @@
   date: '2024-10-30'
   link: https://doi.org/g88678
   orcid: 0000-0002-9555-4553
-  plugin: sources.py
-  file: sources.yaml
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.7554/eLife.88414.4
   title: Spatial transcriptomics of meningeal inflammation reveals inflammatory gene
     signatures in adjacent brain parenchyma
@@ -58,6 +107,19 @@
   orcid: 0000-0002-9555-4553
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1016/j.neuron.2024.05.025
+  title: Neurodegeneration and demyelination in multiple sclerosis
+  authors:
+  - Thomas Garton
+  - Sachin P. Gadani
+  - Alexander J. Gill
+  - Peter A. Calabresi
+  publisher: Neuron
+  date: '2024-10-01'
+  link: https://doi.org/g8rjcm
+  orcid: 0000-0002-9555-4553
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1177/13524585231213164
   title: Serum macrophage migration inhibitory factor levels predict brain atrophy
     in people with primary progressive multiple sclerosis
@@ -117,6 +179,52 @@
   publisher: eLife Sciences Publications, Ltd
   date: '2023-07-11'
   link: https://doi.org/g8868h
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.jns.2023.120858
+  title: 'Pre-existing neurological conditions and COVID-19 co-infection: Data from
+    systematic reviews, meta-analyses, and scoping reviews'
+  authors:
+  - Abhilasha P. Boruah
+  - Kiran T. Thakur
+  - Sachin P. Gadani
+  - Kavita U. Kothari
+  - Mashina Chomba
+  - Alla Guekht
+  - Kimia Heydari
+  - Fan Kee Hoo
+  - Soonmyung Hwang
+  - Benedict D. Michael
+  - Maya V. Pandit
+  - Carlos A. Pardo
+  - Kameshwar Prasad
+  - Zomer Sardar
+  - Katrin Seeher
+  - Tom Solomon
+  - Andrea S. Winkler
+  - Greta K. Wood
+  - Nicoline Schiess
+  publisher: Journal of the Neurological Sciences
+  date: '2023-12-01'
+  link: https://doi.org/g9x388
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2023.06.02.543421
+  title: Spatial Transcriptomics of Meningeal Inflammation Reveals Inflammatory Gene
+    Signatures in Adjacent Brain Parenchyma
+  authors:
+  - Sachin P. Gadani
+  - Saumitra Singh
+  - Sophia Kim
+  - Jingwen Hu
+  - Matthew D. Smith
+  - Peter A. Calabresi
+  - Pavan Bhargava
+  publisher: Cold Spring Harbor Laboratory
+  date: '2023-06-06'
+  link: https://doi.org/g9x389
   orcid: 0000-0002-9555-4553
   plugin: orcid.py
   file: orcid.yaml
@@ -193,6 +301,26 @@
   orcid: 0000-0002-9555-4553
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1101/2021.08.23.21262472
+  title: Discordant humoral and T cell immune responses to SARS-CoV-2 vaccination
+    in people with multiple sclerosis on anti-CD20 therapy
+  authors:
+  - Sachin P. Gadani
+  - Maria Reyes-Mantilla
+  - Larissa Jank
+  - Samantha Harris
+  - Morgan Douglas
+  - Matthew D. Smith
+  - Peter A. Calabresi
+  - Ellen M. Mowry
+  - Kathryn C. Fitzgerald
+  - Pavan Bhargava
+  publisher: Cold Spring Harbor Laboratory
+  date: '2021-08-25'
+  link: https://doi.org/g9x39b
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.7759/cureus.5823
   title: Granulomatosis with Polyangiitis Manifesting as a Symptomatic Sellar Mass
     in a Young Woman
@@ -367,6 +495,37 @@
   orcid: 0000-0002-9555-4553
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1172/JCI82458
+  title: MHCII-independent CD4+ T cells protect injured CNS neurons via IL-4
+  authors:
+  - James T. Walsh
+  - Sven Hendrix
+  - Francesco Boato
+  - Igor Smirnov
+  - Jingjing Zheng
+  - John R. Lukens
+  - Sachin Gadani
+  - Daniel Hechler
+  - "Greta G\xF6lz"
+  - Karen Rosenberger
+  - "Thomas Kammert\xF6ns"
+  - Johannes Vogt
+  - Christina Vogelaar
+  - Volker Siffrin
+  - Ali Radjavi
+  - Anthony Fernandez-Castaneda
+  - Alban Gaultier
+  - Ralf Gold
+  - Thirumala-Devi Kanneganti
+  - Robert Nitsch
+  - Frauke Zipp
+  - Jonathan Kipnis
+  publisher: Journal of Clinical Investigation
+  date: '2015-05-04'
+  link: https://doi.org/g9x39c
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.jneuroim.2014.08.543
   title: Chemokine-induced trafficking of T cells into the meninges through the brain
     "gates"
@@ -391,6 +550,18 @@
   publisher: The Journal of Immunology
   date: '2012-11-01'
   link: https://doi.org/gqqxmm
+  orcid: 0000-0002-9555-4553
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/nri3280
+  title: Pro-cognitive properties of T cells
+  authors:
+  - Jonathan Kipnis
+  - Sachin Gadani
+  - "No\xEBl C. Derecki"
+  publisher: Nature Reviews Immunology
+  date: '2012-08-20'
+  link: https://doi.org/ghs4g9
   orcid: 0000-0002-9555-4553
   plugin: sources.py
   file: sources.yaml
@@ -438,26 +609,3 @@
   orcid: 0000-0002-9555-4553
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1016/j.neuron.2024.05.025
-  title: Neurodegeneration and demyelination in multiple sclerosis
-  authors:
-  - Thomas Garton
-  - Sachin P. Gadani
-  - Alexander J. Gill
-  - Peter A. Calabresi
-  publisher: Neuron
-  date: '2024-10-01'
-  link: https://doi.org/g8rjcm
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1038/nri3280
-  title: Pro-cognitive properties of T cells
-  authors:
-  - Jonathan Kipnis
-  - Sachin Gadani
-  - "No\xEBl C. Derecki"
-  publisher: Nature Reviews Immunology
-  date: '2012-08-20'
-  link: https://doi.org/ghs4g9
-  plugin: sources.py
-  file: sources.yaml
