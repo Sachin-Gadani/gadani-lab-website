@@ -1,12 +1,12 @@
 ---
 ---
 
-# Translational Neuroimmunology lab @ Pitt
+# Translational Neuroimmunology at Pitt
 <p style="font-size: 1.5em;">The immune and nervous systems are intricately linked, and their bi-directional communication maintains human health and influences disease outcomes. We study clinically relevant neuroimmune interactions, focusing on Multiple Sclerosis, seeking to reveal mechanisms underlying MS progression and failed remyelination.</p>
 
 {% include section.html %}
 
-## Highlights
+# Highlights
 
 {% capture text %}
 
