@@ -44,7 +44,7 @@ The immune and nervous systems are intricately linked, and their bi-directional 
 
 {%
   include feature.html
-  image="images/index_projects_spatial_transcriptomics_representative.png"
+  image="images/coronal-sc-injury-il33.png"
   link="projects"
   title="Our Projects"
   flip=true
