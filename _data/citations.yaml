@@ -182,7 +182,6 @@
   orcid: 0000-0002-9555-4553
   plugin: orcid.py
   file: orcid.yaml
-  image: images/spatial-transcriptomics-scheme.png
 - id: doi:10.1016/j.jns.2023.120858
   title: 'Pre-existing neurological conditions and COVID-19 co-infection: Data from
     systematic reviews, meta-analyses, and scoping reviews'
