@@ -49,23 +49,6 @@
   orcid: 0000-0002-9555-4553
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.7554/eLife.88414
-  title: Spatial transcriptomics of meningeal inflammation reveals inflammatory gene
-    signatures in adjacent brain parenchyma
-  authors:
-  - Sachin P Gadani
-  - Saumitra Singh
-  - Sophia Kim
-  - Jingwen Hu
-  - Matthew D Smith
-  - Peter A Calabresi
-  - Pavan Bhargava
-  publisher: eLife
-  date: '2024-10-30'
-  link: https://doi.org/g88678
-  orcid: 0000-0002-9555-4553
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.7554/eLife.88414.4
   title: Spatial transcriptomics of meningeal inflammation reveals inflammatory gene
     signatures in adjacent brain parenchyma
@@ -107,16 +90,18 @@
   orcid: 0000-0002-9555-4553
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1016/j.neuron.2024.05.025
-  title: Neurodegeneration and demyelination in multiple sclerosis
+- id: doi:10.1016/j.neuron.2015.01.013
+  title: The Glia-Derived Alarmin IL-33 Orchestrates the Immune Response and Promotes
+    Recovery following CNS Injury
   authors:
-  - Thomas Garton
-  - Sachin P. Gadani
-  - Alexander J. Gill
-  - Peter A. Calabresi
+  - "Sachin\_P. Gadani"
+  - "James\_T. Walsh"
+  - Igor Smirnov
+  - Jingjing Zheng
+  - Jonathan Kipnis
   publisher: Neuron
-  date: '2024-10-01'
-  link: https://doi.org/g8rjcm
+  date: '2015-02-01'
+  link: https://doi.org/f627p4
   orcid: 0000-0002-9555-4553
   plugin: sources.py
   file: sources.yaml
@@ -163,22 +148,6 @@
   publisher: Cell
   date: '2023-08-01'
   link: https://doi.org/g8868g
-  orcid: 0000-0002-9555-4553
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.7554/eLife.88414.1
-  title: Spatial Transcriptomics of Meningeal Inflammation Reveals Variable Penetrance
-    of Inflammatory Gene Signatures into Adjacent Brain Parenchyma
-  authors:
-  - Sachin P. Gadani
-  - Saumitra Singh
-  - Sophia Kim
-  - Matthew D. Smith
-  - Peter A. Calabresi
-  - Pavan Bhargava
-  publisher: eLife Sciences Publications, Ltd
-  date: '2023-07-11'
-  link: https://doi.org/g8868h
   orcid: 0000-0002-9555-4553
   plugin: orcid.py
   file: orcid.yaml
@@ -301,26 +270,6 @@
   orcid: 0000-0002-9555-4553
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1101/2021.08.23.21262472
-  title: Discordant humoral and T cell immune responses to SARS-CoV-2 vaccination
-    in people with multiple sclerosis on anti-CD20 therapy
-  authors:
-  - Sachin P. Gadani
-  - Maria Reyes-Mantilla
-  - Larissa Jank
-  - Samantha Harris
-  - Morgan Douglas
-  - Matthew D. Smith
-  - Peter A. Calabresi
-  - Ellen M. Mowry
-  - Kathryn C. Fitzgerald
-  - Pavan Bhargava
-  publisher: openRxiv
-  date: '2021-08-25'
-  link: https://doi.org/g9x39b
-  orcid: 0000-0002-9555-4553
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.7759/cureus.5823
   title: Granulomatosis with Polyangiitis Manifesting as a Symptomatic Sellar Mass
     in a Young Woman
@@ -425,19 +374,6 @@
   orcid: 0000-0002-9555-4553
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1016/j.neuron.2015.05.019
-  title: 'Dealing with Danger in the CNS: The Response of the Immune System to Injury'
-  authors:
-  - "Sachin\_P. Gadani"
-  - "James\_T. Walsh"
-  - "John\_R. Lukens"
-  - Jonathan Kipnis
-  publisher: Neuron
-  date: '2015-07-01'
-  link: https://doi.org/f7qks6
-  orcid: 0000-0002-9555-4553
-  plugin: sources.py
-  file: sources.yaml
 - id: doi:10.1038/ni.3145
   title: Brainless immunity no more
   authors:
@@ -480,21 +416,6 @@
   orcid: 0000-0002-9555-4553
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1016/j.neuron.2015.01.013
-  title: The Glia-Derived Alarmin IL-33 Orchestrates the Immune Response and Promotes
-    Recovery following CNS Injury
-  authors:
-  - "Sachin\_P. Gadani"
-  - "James\_T. Walsh"
-  - Igor Smirnov
-  - Jingjing Zheng
-  - Jonathan Kipnis
-  publisher: Neuron
-  date: '2015-02-01'
-  link: https://doi.org/f627p4
-  orcid: 0000-0002-9555-4553
-  plugin: sources.py
-  file: sources.yaml
 - id: doi:10.1172/JCI82458
   title: MHCII-independent CD4+ T cells protect injured CNS neurons via IL-4
   authors:
