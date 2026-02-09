@@ -11,7 +11,9 @@ nav:
 
 ## Highlighted
 
-{% include citation.html lookup="Spatial Transcriptomics of Meningeal Inflammation" style="rich" image="/images/spatial-transcriptomics-scheme.png" %}
+{% include citation.html lookup="Spatial Transcriptomics of Meningeal Inflammation" style="rich" %}
+
+<!-- note: to get highlighted citations to have an associated picture, you have to add the image as an entry in _data/citations.yaml (image=...) -->
 
 {% include section.html %}
 
