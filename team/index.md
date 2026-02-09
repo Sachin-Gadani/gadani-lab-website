@@ -14,7 +14,6 @@ Our lab is hiring for all levels, including lab technician / manager and post-do
 {% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %}
 {% include list.html data="members" component="portrait" filter="role != 'principal-investigator'" %}
 
-{% include section.html background="images/background.jpg" dark=true %}
 
 
 <!--
