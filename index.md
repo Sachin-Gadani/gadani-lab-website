@@ -1,8 +1,8 @@
 ---
 ---
 
-# Translational Neuroimmunology at Pitt
-<p style="font-size: 1.5em;">The immune and nervous systems are intricately linked, and their bi-directional communication maintains human health and influences disease outcomes. We study clinically relevant neuroimmune interactions, focusing on Multiple Sclerosis, seeking to reveal mechanisms underlying MS progression and failed remyelination.</p>
+# The Challenge
+<p style="font-size: 1.5em;">The immune and nervous systems engage in constant dialogue—but in Multiple Sclerosis, this conversation goes awry. Why do some patients progress despite treatment? Why does remyelination fail when the potential for repair exists? And is MS-related loss of neurons preventable? Our lab tackles these fundamental questions by studying neuroimmune crosstalk at the intersection of immunology, neurobiology, and translational medicine. We're building a mechanistic understanding of MS progression to unlock new therapeutic strategies.</p>
 
 {% include section.html %}
  
