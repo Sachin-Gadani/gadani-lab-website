@@ -66,7 +66,23 @@
   orcid: 0000-0002-9555-4553
   plugin: orcid.py
   file: orcid.yaml
-  image: images/spatial-transcriptomics-scheme.png
+- id: doi:10.7554/eLife.88414.4
+  title: Spatial transcriptomics of meningeal inflammation reveals inflammatory gene
+    signatures in adjacent brain parenchyma
+  authors:
+  - Sachin P Gadani
+  - Saumitra Singh
+  - Sophia Kim
+  - Jingwen Hu
+  - Matthew D Smith
+  - Peter A Calabresi
+  - Pavan Bhargava
+  publisher: eLife
+  date: '2024-10-30'
+  link: https://doi.org/g8868b
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1101/2024.01.17.24301393
   title: Bile acid metabolites predict multiple sclerosis progression and supplementation
     is safe in progressive disease
@@ -147,6 +163,22 @@
   publisher: Cell
   date: '2023-08-01'
   link: https://doi.org/g8868g
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.7554/eLife.88414.1
+  title: Spatial Transcriptomics of Meningeal Inflammation Reveals Variable Penetrance
+    of Inflammatory Gene Signatures into Adjacent Brain Parenchyma
+  authors:
+  - Sachin P. Gadani
+  - Saumitra Singh
+  - Sophia Kim
+  - Matthew D. Smith
+  - Peter A. Calabresi
+  - Pavan Bhargava
+  publisher: eLife Sciences Publications, Ltd
+  date: '2023-07-11'
+  link: https://doi.org/g8868h
   orcid: 0000-0002-9555-4553
   plugin: orcid.py
   file: orcid.yaml
