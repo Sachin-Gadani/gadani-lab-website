@@ -11,7 +11,7 @@ nav:
 
 ## Highlighted
 
-{% include citation.html lookup="Spatial Transcriptomics of Meningeal Inflammation" style="rich" image="images/spatial-transcriptomics-scheme.png" %}
+{% include citation.html lookup="Spatial Transcriptomics of Meningeal Inflammation" style="rich" image="/images/spatial-transcriptomics-scheme.png" %}
 
 {% include section.html %}
 
