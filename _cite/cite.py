@@ -93,10 +93,27 @@ for plugin in plugins:
             if plugin.stem != "sources":
                 log(f"{len(expanded)} source(s)", indent=3)
 
-
 log("Merging sources by id")
 
-# merge sources with matching (non-blank) ids
+def normalize_doi(doi_string):
+    """Extract base DOI without version suffixes"""
+    if not doi_string or not doi_string.startswith("doi:"):
+        return doi_string
+    # Remove version suffixes like .1, .2, .4 from eLife DOIs
+    base = doi_string.split(".")[0:3]  # Keep doi:10.XXXX/...
+    return ".".join(base) if len(base) >= 3 else doi_string
+
+def normalize_title(title):
+    """Normalize title for comparison"""
+    if not title:
+        return ""
+    import re
+    # Remove punctuation, lowercase, remove extra spaces
+    normalized = re.sub(r'[^\w\s]', '', title.lower())
+    normalized = ' '.join(normalized.split())
+    return normalized
+
+# First pass: merge by exact ID match
 for a in range(0, len(sources)):
     a_id = get_safe(sources, f"{a}.id", "")
     if not a_id:
@@ -107,8 +124,69 @@ for a in range(0, len(sources)):
             log(f"Found duplicate {b_id}", indent=2)
             sources[a].update(sources[b])
             sources[b] = {}
-sources = [entry for entry in sources if entry]
 
+# Second pass: merge by normalized DOI (catches version differences)
+for a in range(0, len(sources)):
+    if not sources[a]:
+        continue
+    a_id = get_safe(sources, f"{a}.id", "")
+    a_norm = normalize_doi(a_id)
+    if not a_norm or not a_id.startswith("doi:"):
+        continue
+    
+    for b in range(a + 1, len(sources)):
+        if not sources[b]:
+            continue
+        b_id = get_safe(sources, f"{b}.id", "")
+        b_norm = normalize_doi(b_id)
+        
+        if a_norm == b_norm and a_id != b_id:
+            log(f"Found DOI version duplicate: {a_id} ≈ {b_id}", indent=2)
+            # Keep the one with fewer version suffixes (usually the main DOI)
+            if len(a_id) <= len(b_id):
+                sources[a].update(sources[b])
+                sources[b] = {}
+            else:
+                sources[b].update(sources[a])
+                sources[a] = {}
+
+# Third pass: merge by similar titles (catches preprint/published pairs)
+for a in range(0, len(sources)):
+    if not sources[a]:
+        continue
+    a_title = normalize_title(get_safe(sources, f"{a}.title", ""))
+    if not a_title:
+        continue
+    
+    for b in range(a + 1, len(sources)):
+        if not sources[b]:
+            continue
+        b_title = normalize_title(get_safe(sources, f"{b}.title", ""))
+        
+        # Check if titles match and at least one author overlaps
+        if a_title == b_title:
+            a_authors = get_safe(sources, f"{a}.authors", [])
+            b_authors = get_safe(sources, f"{b}.authors", [])
+            
+            # Simple overlap check
+            if set(a_authors) & set(b_authors):
+                a_id = get_safe(sources, f"{a}.id", "")
+                b_id = get_safe(sources, f"{b}.id", "")
+                log(f"Found title duplicate: {a_id} ≈ {b_id}", indent=2)
+                
+                # Prefer published DOI over preprint (not medRxiv/bioRxiv/openRxiv)
+                if "10.1101" in b_id or "openrxiv" in b_id.lower():
+                    sources[a].update(sources[b])
+                    sources[b] = {}
+                elif "10.1101" in a_id or "openrxiv" in a_id.lower():
+                    sources[b].update(sources[a])
+                    sources[a] = {}
+                else:
+                    # Both published, merge into first
+                    sources[a].update(sources[b])
+                    sources[b] = {}
+
+sources = [entry for entry in sources if entry]
 
 log(f"{len(sources)} total source(s) to cite")
 
