@@ -1,5 +1,31 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1038/s41593-026-02201-7
+  title: Autoimmune neuroinflammation leads to neuronal death via MIF nuclease-mediated
+    parthanatos
+  authors:
+  - Jackson W. Mace
+  - Sachin P. Gadani
+  - Matthew D. Smith
+  - Danny Galleguillos
+  - Bong Gu Kang
+  - Milton Roy
+  - Meilian Liu
+  - Benjamin Summers
+  - Thomas Garton
+  - Marjan Gharagozloo
+  - Alexander J. Gill
+  - Carlos A. Pardo
+  - Elias S. Sotirchos
+  - Valina L. Dawson
+  - Ted M. Dawson
+  - Peter A. Calabresi
+  publisher: Nature Neuroscience
+  date: '2026-02-17'
+  link: https://doi.org/hbsmcj
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.medj.2024.09.011
   title: Bile acid metabolites predict multiple sclerosis progression and supplementation
     is safe in progressive disease
