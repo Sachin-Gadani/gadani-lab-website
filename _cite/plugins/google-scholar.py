@@ -1,8 +1,4 @@
 import os
-import re
-import json
-from urllib.request import Request, urlopen
-from urllib.parse import quote
 from serpapi import GoogleSearch
 from util import *
 
@@ -45,8 +41,7 @@ def main(entry):
     # get api key (serp api key to access google scholar)
     api_key = os.environ.get("GOOGLE_SCHOLAR_API_KEY", "")
     if not api_key:
-        log('No "GOOGLE_SCHOLAR_API_KEY" env var, skipping Google Scholar', indent=2, level="WARNING")
-        return []
+        raise Exception('No "GOOGLE_SCHOLAR_API_KEY" env var')
 
     # serp api properties
     params = {
@@ -74,22 +69,16 @@ def main(entry):
     sources = []
 
     for work in response:
-        link = get_safe(work, "link", "")
+        # create source
         year = get_safe(work, "year", "")
-        title = get_safe(work, "title", "")
-        authors = list(map(str.strip, get_safe(work, "authors", "").split(",")))
-
-        # try to get a citable id from the link with no extra HTTP requests;
-        # leave empty if none found so cite.py keeps Scholar metadata as-is
-        source_id = _id_from_link(link)
-
         source = {
-            "id": source_id,
+            "id": get_safe(work, "citation_id", ""),
+            # api does not provide Manubot-citeable id, so keep citation details
             "title": get_safe(work, "title", ""),
             "authors": list(map(str.strip, get_safe(work, "authors", "").split(","))),
             "publisher": get_safe(work, "publication", ""),
             "date": (year + "-01-01") if year else "",
-            "link": link,
+            "link": get_safe(work, "link", ""),
         }
 
         # copy fields from entry to source
