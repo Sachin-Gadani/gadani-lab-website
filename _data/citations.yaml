@@ -1,5 +1,21 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1212/nxi.0000000000200568
+  title: MIF Tautomerase Inhibition Protects Neurons From Immune-Mediated Cell Death
+  authors:
+  - Jackson W. Mace
+  - Matthew D. Smith
+  - Sachin P. Gadani
+  - Marjan Gharagozloo
+  - Valina L. Dawson
+  - Ted M. Dawson
+  - Peter A. Calabresi
+  publisher: Neurology Neuroimmunology &amp; Neuroinflammation
+  date: '2026-05-01'
+  link: https://doi.org/hb48pm
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1038/s41593-026-02201-7
   title: Autoimmune neuroinflammation leads to neuronal death via MIF nuclease-mediated
     parthanatos
@@ -20,7 +36,6 @@
   - Valina L. Dawson
   - Ted M. Dawson
   - Peter A. Calabresi
-  image: images/dna_damage.png
   publisher: Nature Neuroscience
   date: '2026-02-17'
   link: https://doi.org/hbsmcj
