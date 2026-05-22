@@ -1,39 +1,25 @@
 import os
 import re
-import json
-from urllib.request import Request, urlopen
-from urllib.parse import quote
 from serpapi import GoogleSearch
 from util import *
 
 
-def _doi_from_crossref(title, authors):
-    """Look up a DOI via CrossRef title search. Returns 'doi:...' or ''."""
-    try:
-        query = quote(title)
-        url = f"https://api.crossref.org/works?query.title={query}&rows=1&select=DOI,title,author"
-        headers = {
-            "User-Agent": "gadani-lab-website/1.0 (https://github.com/Sachin-Gadani/gadani-lab-website; mailto:gadanis1@pitt.edu)"
-        }
-        req = Request(url=url, headers=headers)
-        data = json.loads(urlopen(req, timeout=10).read())
-        items = data.get("message", {}).get("items", [])
-        if not items:
-            return ""
-        item = items[0]
-        # Verify the title is a close match before trusting the DOI
-        returned_title = " ".join(item.get("title", [""]))
-        if normalize_title(returned_title) != normalize_title(title):
-            return ""
-        return f"doi:{item['DOI']}"
-    except Exception:
-        return ""
+# Map publisher URL patterns to Manubot-citable ids (no extra HTTP requests)
+_LINK_ID_PATTERNS = [
+    (r"doi\.org/(10\.[^\s&?#]+)", r"doi:\1"),
+    (r"nature\.com/articles/(s\d{5}-\d{3}-\d{5}-\d)", r"doi:10.1038/\1"),
+    (r"science\.org/doi/(10\.[^\s&?#]+)", r"doi:\1"),
+    (r"pubmed\.ncbi\.nlm\.nih\.gov/(\d+)", r"pmid:\1"),
+]
 
 
-def normalize_title(title):
-    """Lowercase, strip punctuation and extra spaces for comparison."""
-    normalized = re.sub(r"[^\w\s]", "", title.lower())
-    return " ".join(normalized.split())
+def _id_from_link(link):
+    """Try to extract a Manubot-citable id from a publisher link."""
+    for pattern, template in _LINK_ID_PATTERNS:
+        match = re.search(pattern, link)
+        if match:
+            return re.sub(pattern, template, match.group(0))
+    return ""
 
 
 def main(entry):
@@ -53,7 +39,6 @@ def main(entry):
         "engine": "google_scholar_author",
         "api_key": api_key,
         "num": 100,  # max allowed
-        "sortby": "pubdate",  # most recent first so new papers aren't missed
     }
 
     # get id from entry
@@ -61,7 +46,7 @@ def main(entry):
     if not _id:
         raise Exception('No "gsid" key')
 
-    # query api
+    # query api (cached 24 h)
     @log_cache
     @cache.memoize(name=__file__, expire=1 * (60 * 60 * 24))
     def query(_id):
@@ -73,32 +58,14 @@ def main(entry):
     # list of sources to return
     sources = []
 
-    # go through response and format sources
     for work in response:
         link = get_safe(work, "link", "")
         year = get_safe(work, "year", "")
-        title = get_safe(work, "title", "")
-        authors = list(map(str.strip, get_safe(work, "authors", "").split(",")))
 
-        # 1. try doi.org link first (fast, no extra request)
-        doi_match = re.search(r"doi\.org/(10\.[^\s&?#]+)", link)
-        if doi_match:
-            source_id = f"doi:{doi_match.group(1)}"
-        else:
-            # 2. fall back to CrossRef title lookup to get a citable DOI
-            source_id = _doi_from_crossref(title, authors)
+        # try to get a citable id from the link with no extra HTTP requests;
+        # leave empty if none found so cite.py keeps Scholar metadata as-is
+        source_id = _id_from_link(link)
 
-        source = {
-            "id": source_id,
-            "title": title,
-            "authors": authors,
-
-        # try to extract a citable DOI from the link (e.g. https://doi.org/10.xxxx/...)
-        doi_match = re.search(r'doi\.org/(10\.[^\s&?#]+)', link)
-        source_id = f"doi:{doi_match.group(1)}" if doi_match else ""
-
-        # if no DOI found, leave id empty so cite.py keeps Scholar's metadata as-is
-        # rather than passing a Scholar citation_id that Manubot cannot resolve
         source = {
             "id": source_id,
             "title": get_safe(work, "title", ""),
@@ -111,7 +78,7 @@ def main(entry):
         # copy fields from entry to source
         source.update(entry)
 
-        # add source to list
         sources.append(source)
 
     return sources
+
