@@ -16,8 +16,10 @@ _LINK_ID_PATTERNS = [
     (r"pubmed\.ncbi\.nlm\.nih\.gov/(\d+)", r"pmid:\1"),
     # eLife (article number only in URL, reconstruct DOI)
     (r"elifesciences\.org/articles/(\d+)", r"doi:10.7554/eLife.\1"),
-    # Generic: DOI embedded in URL path (Wiley, Sage, PNAS, BioMedCentral, preprints, etc.)
-    (r"/(10\.\d{4,}/[^\s/?&#]+)", r"doi:\1"),
+    # BioMed Central journals (DOI is in the URL path)
+    (r"biomedcentral\.com/articles/(10\.[^\s&?#]+)", r"doi:\1"),
+    # medRxiv / bioRxiv (strip trailing version suffix like v2)
+    (r"(?:medrxiv|biorxiv)\.org/content/(10\.[^\sv?&#+]+)", r"doi:\1"),
 ]
 
 

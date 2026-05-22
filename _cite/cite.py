@@ -260,7 +260,7 @@ def _citation_sort_key(cit):
     plugin = get_safe(cit, "plugin", "")
     _id = get_safe(cit, "id", "")
     is_preprint = "10.1101" in _id or "openrxiv" in _id.lower()
-    return (1 if is_preprint else 0, get_safe(_plugin_priority, plugin, 99))
+    return (1 if is_preprint else 0, _plugin_priority.get(plugin, 99))
 
 def _last_names(authors):
     return {a.strip().split()[-1].lower() for a in authors if a.strip()}
