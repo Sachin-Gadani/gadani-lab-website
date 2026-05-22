@@ -96,12 +96,12 @@ for plugin in plugins:
 log("Merging sources by id")
 
 def normalize_doi(doi_string):
-    """Extract base DOI without version suffixes"""
+    """Strip trailing single-digit version suffix from DOI (e.g. eLife .1, .2 versioning)"""
     if not doi_string or not doi_string.startswith("doi:"):
         return doi_string
-    # Remove version suffixes like .1, .2, .4 from eLife DOIs
-    base = doi_string.split(".")[0:3]  # Keep doi:10.XXXX/...
-    return ".".join(base) if len(base) >= 3 else doi_string
+    import re
+    # Only strip 1-2 digit suffixes (version numbers); leave 3+ digit suffixes like .025 or .013
+    return re.sub(r'\.\d{1,2}$', '', doi_string)
 
 def normalize_title(title):
     """Normalize title for comparison"""
