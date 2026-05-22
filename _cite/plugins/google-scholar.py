@@ -68,19 +68,6 @@ def main(entry):
         title = get_safe(work, "title", "")
         authors = list(map(str.strip, get_safe(work, "authors", "").split(",")))
 
-        # 1. try doi.org link first (fast, no extra request)
-        doi_match = re.search(r"doi\.org/(10\.[^\s&?#]+)", link)
-        if doi_match:
-            source_id = f"doi:{doi_match.group(1)}"
-        else:
-            # 2. fall back to CrossRef title lookup to get a citable DOI
-            source_id = _doi_from_crossref(title, authors)
-
-        source = {
-            "id": source_id,
-            "title": title,
-            "authors": authors,
-
         # try to get a citable id from the link with no extra HTTP requests;
         # leave empty if none found so cite.py keeps Scholar metadata as-is
         source_id = _id_from_link(link)
