@@ -92,6 +92,17 @@ def main(entry):
             "id": source_id,
             "title": title,
             "authors": authors,
+
+        # try to extract a citable DOI from the link (e.g. https://doi.org/10.xxxx/...)
+        doi_match = re.search(r'doi\.org/(10\.[^\s&?#]+)', link)
+        source_id = f"doi:{doi_match.group(1)}" if doi_match else ""
+
+        # if no DOI found, leave id empty so cite.py keeps Scholar's metadata as-is
+        # rather than passing a Scholar citation_id that Manubot cannot resolve
+        source = {
+            "id": source_id,
+            "title": get_safe(work, "title", ""),
+            "authors": list(map(str.strip, get_safe(work, "authors", "").split(","))),
             "publisher": get_safe(work, "publication", ""),
             "date": (year + "-01-01") if year else "",
             "link": link,
