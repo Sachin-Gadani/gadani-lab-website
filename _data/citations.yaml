@@ -107,7 +107,6 @@
   orcid: 0000-0002-9555-4553
   plugin: sources.py
   file: sources.yaml
-  image: images/spatial-transcriptomics-scheme.png
 - id: doi:10.1016/j.neuron.2024.05.025
   title: Neurodegeneration and demyelination in multiple sclerosis
   authors:
