@@ -1,5 +1,8 @@
 import os
 import re
+import json
+from urllib.request import Request, urlopen
+from urllib.parse import quote
 from serpapi import GoogleSearch
 from util import *
 
@@ -39,6 +42,7 @@ def main(entry):
         "engine": "google_scholar_author",
         "api_key": api_key,
         "num": 100,  # max allowed
+        "sortby": "pubdate",  # most recent first so new papers aren't missed
     }
 
     # get id from entry
@@ -61,6 +65,8 @@ def main(entry):
     for work in response:
         link = get_safe(work, "link", "")
         year = get_safe(work, "year", "")
+        title = get_safe(work, "title", "")
+        authors = list(map(str.strip, get_safe(work, "authors", "").split(",")))
 
         # try to get a citable id from the link with no extra HTTP requests;
         # leave empty if none found so cite.py keeps Scholar metadata as-is
