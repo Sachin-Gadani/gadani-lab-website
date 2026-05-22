@@ -64,7 +64,7 @@ jobs:
         if: failure()
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          file_pattern: "**/.cache/**"
+          file_pattern: "**/.cache/*.val **/.cache/**/*.val"
           commit_message: "Commit cache"
 
       - name: Check if citations changed
