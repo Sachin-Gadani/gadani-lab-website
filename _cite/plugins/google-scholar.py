@@ -3,6 +3,35 @@ from serpapi import GoogleSearch
 from util import *
 
 
+# Map publisher URL patterns to Manubot-citable ids (no extra HTTP requests)
+_LINK_ID_PATTERNS = [
+    # Explicit doi.org redirect (most reliable)
+    (r"doi\.org/(10\.[^\s&?#]+)", r"doi:\1"),
+    # Nature (new-style article IDs)
+    (r"nature\.com/articles/(s\d{5}-\d{3}-\d{5}-\d)", r"doi:10.1038/\1"),
+    # Science
+    (r"science\.org/doi/(10\.[^\s&?#]+)", r"doi:\1"),
+    # PubMed
+    (r"pubmed\.ncbi\.nlm\.nih\.gov/(\d+)", r"pmid:\1"),
+    # eLife (article number only in URL, reconstruct DOI)
+    (r"elifesciences\.org/articles/(\d+)", r"doi:10.7554/eLife.\1"),
+    # Generic: DOI embedded in URL path (Wiley, Sage, PNAS, BioMedCentral, preprints, etc.)
+    (r"/(10\.\d{4,}/[^\s/?&#]+)", r"doi:\1"),
+]
+
+
+def _id_from_link(link):
+    """Try to extract a Manubot-citable id from a publisher link."""
+    for pattern, template in _LINK_ID_PATTERNS:
+        match = re.search(pattern, link)
+        if match:
+            result = re.sub(pattern, template, match.group(0))
+            # Strip preprint version suffixes (e.g. v2 at end of medRxiv/bioRxiv DOIs)
+            result = re.sub(r'(doi:10\.1101/.+?)v\d+$', r'\1', result)
+            return result
+    return ""
+
+
 def main(entry):
     """
     receives single list entry from google-scholar data file
@@ -19,6 +48,7 @@ def main(entry):
         "engine": "google_scholar_author",
         "api_key": api_key,
         "num": 100,  # max allowed
+        "sortby": "pubdate",  # most recent first so new papers aren't missed
     }
 
     # get id from entry
@@ -26,7 +56,7 @@ def main(entry):
     if not _id:
         raise Exception('No "gsid" key')
 
-    # query api
+    # query api (cached 24 h)
     @log_cache
     @cache.memoize(name=__file__, expire=1 * (60 * 60 * 24))
     def query(_id):
@@ -38,7 +68,6 @@ def main(entry):
     # list of sources to return
     sources = []
 
-    # go through response and format sources
     for work in response:
         # create source
         year = get_safe(work, "year", "")
@@ -55,7 +84,7 @@ def main(entry):
         # copy fields from entry to source
         source.update(entry)
 
-        # add source to list
         sources.append(source)
 
     return sources
+
