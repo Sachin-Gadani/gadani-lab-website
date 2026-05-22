@@ -44,7 +44,7 @@ jobs:
         run: printf "Placeholder homepage" > index.html
 
       - name: Commit changes to Pages branch
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           branch: gh-pages
           commit_message: "Clear branch"
@@ -117,6 +117,6 @@ jobs:
             writeFileSync(file, contents);
 
       - name: Commit changed files
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "Setup repo"

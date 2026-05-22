@@ -1,4 +1,5 @@
 import os
+import re
 from serpapi import GoogleSearch
 from util import *
 
@@ -41,16 +42,22 @@ def main(entry):
 
     # go through response and format sources
     for work in response:
-        # create source
+        link = get_safe(work, "link", "")
         year = get_safe(work, "year", "")
+
+        # try to extract a citable DOI from the link (e.g. https://doi.org/10.xxxx/...)
+        doi_match = re.search(r'doi\.org/(10\.[^\s&?#]+)', link)
+        source_id = f"doi:{doi_match.group(1)}" if doi_match else ""
+
+        # if no DOI found, leave id empty so cite.py keeps Scholar's metadata as-is
+        # rather than passing a Scholar citation_id that Manubot cannot resolve
         source = {
-            "id": get_safe(work, "citation_id", ""),
-            # api does not provide Manubot-citeable id, so keep citation details
+            "id": source_id,
             "title": get_safe(work, "title", ""),
             "authors": list(map(str.strip, get_safe(work, "authors", "").split(","))),
             "publisher": get_safe(work, "publication", ""),
             "date": (year + "-01-01") if year else "",
-            "link": get_safe(work, "link", ""),
+            "link": link,
         }
 
         # copy fields from entry to source

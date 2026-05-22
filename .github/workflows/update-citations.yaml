@@ -62,7 +62,7 @@ jobs:
 
       - name: Commit cache
         if: failure()
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           file_pattern: "**/.cache/*.val **/.cache/**/*.val"
           commit_message: "Commit cache"
@@ -70,7 +70,7 @@ jobs:
       - name: Check if citations changed
         if: github.event.action != 'closed'
         id: changed
-        uses: tj-actions/verify-changed-files@v18
+        uses: tj-actions/verify-changed-files@v20
         with:
           files: |
             _data/citations.yaml
@@ -80,7 +80,7 @@ jobs:
           github.event.action != 'closed' &&
           steps.changed.outputs.files_changed == 'true' &&
           inputs.open-pr != true
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "Update citations"
 
@@ -89,7 +89,7 @@ jobs:
           github.event.action != 'closed' &&
           steps.changed.outputs.files_changed == 'true' &&
           inputs.open-pr == true
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v8
         with:
           branch: citation-update
           title: Periodic citation update
