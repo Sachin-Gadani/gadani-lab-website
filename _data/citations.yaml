@@ -71,168 +71,21 @@
 - id: ''
   title: Interactions of innate and adaptive immunity in brain development and function
   authors:
-  - AJ Filiano
-  - SP Gadani
-  - J Kipnis
-  publisher: Brain research 1617, 18-27, 2015
-  date: '2015-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTnqJjAAAAAJ&pagesize=100&citation_for_view=RTnqJjAAAAAJ:Tyk-4Ss8FVUC
-  gsid: RTnqJjAAAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: ''
-  title: MHCII-independent CD4+ T cells protect injured CNS neurons via IL-4
-  authors:
-  - JT Walsh
-  - S Hendrix
-  - F Boato
-  - I Smirnov
-  - J Zheng
-  - JR Lukens
-  - S Gadani
-  - '...'
-  publisher: The Journal of clinical investigation 125 (2), 699-714, 2015
-  date: '2015-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTnqJjAAAAAJ&pagesize=100&citation_for_view=RTnqJjAAAAAJ:IjCSPb-OGe4C
-  gsid: RTnqJjAAAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: ''
-  title: How and why do T cells and their derived cytokines affect the injured and
-    healthy brain?
-  authors:
-  - AJ Filiano
-  - SP Gadani
-  - J Kipnis
-  publisher: Nature Reviews Neuroscience 18 (6), 375-384, 2017
-  date: '2017-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTnqJjAAAAAJ&pagesize=100&citation_for_view=RTnqJjAAAAAJ:Zph67rFs4hoC
-  gsid: RTnqJjAAAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: ''
-  title: Distribution of CD133 reveals glioma stem cells self-renew through symmetric
-    and asymmetric cell divisions
-  authors:
-  - JD Lathia
-  - M Hitomi
-  - J Gallagher
-  - SP Gadani
-  - J Adkins
-  - A Vasanji
-  - L Liu
-  - '...'
-  publisher: Cell death & disease 2 (9), e200-e200, 2011
-  date: '2011-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTnqJjAAAAAJ&pagesize=100&citation_for_view=RTnqJjAAAAAJ:Se3iqnhoufwC
-  gsid: RTnqJjAAAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: ''
-  title: Characterization of meningeal type 2 innate lymphocytes and their response
-    to CNS injury
-  authors:
-  - SP Gadani*
-  - I Smirnov
-  - AT Wiltbank
-  - CC Overall
-  - J Kipnis*
-  publisher: Journal of Experimental Medicine 214 (2), 285-296, 2017
-  date: '2017-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTnqJjAAAAAJ&pagesize=100&citation_for_view=RTnqJjAAAAAJ:8k81kl-MbHgC
-  gsid: RTnqJjAAAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: ''
-  title: Discordant humoral and T cell immune responses to SARS-CoV-2 vaccination
-    in people with multiple sclerosis on anti-CD20 therapy
-  authors:
-  - SP Gadani^
-  - M Reyes-Mantilla^
-  - L Jank
-  - S Harris
-  - M Douglas
-  - MD Smith
-  - '...'
-  publisher: EBioMedicine 73, 2021
-  date: '2021-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTnqJjAAAAAJ&pagesize=100&citation_for_view=RTnqJjAAAAAJ:qxL8FJ1GzNcC
-  gsid: RTnqJjAAAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: ''
+  - Sachin P. Gadani
+  - Saumitra Singh
+  - Sophia Kim
+  - Matthew D. Smith
+  - Peter A. Calabresi
+  - Pavan Bhargava
+  publisher: eLife Sciences Publications, Ltd
+  date: '2023-07-11'
+  link: https://doi.org/g8868h
+  orcid: 0000-0002-9555-4553
+  plugin: sources.py
+  file: sources.yaml
+  image: images/spatial-transcriptomics-scheme.png
+- id: doi:10.1016/j.neuron.2024.05.025
   title: Neurodegeneration and demyelination in multiple sclerosis
-  authors:
-  - T Garton
-  - SP Gadani
-  - AJ Gill
-  - PA Calabresi
-  publisher: Neuron 112 (19), 3231-3251, 2024
-  date: '2024-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTnqJjAAAAAJ&pagesize=100&citation_for_view=RTnqJjAAAAAJ:hFOr9nPyWt4C
-  gsid: RTnqJjAAAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: ''
-  title: Emerging imaging and liquid biomarkers in multiple sclerosis
-  authors:
-  - AJ Gill
-  - EM Schorr
-  - SP Gadani
-  - PA Calabresi
-  publisher: European Journal of Immunology, 2250228, 2023
-  date: '2023-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTnqJjAAAAAJ&pagesize=100&citation_for_view=RTnqJjAAAAAJ:QIV2ME_5wuYC
-  gsid: RTnqJjAAAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: ''
-  title: SSR markers developed for genetic mapping in flax (Linum usitatissimum L.)
-  authors:
-  - CL Bickel
-  - S Gadani
-  - M Lukacs
-  - CA Cullis
-  publisher: Research and Reports in Biology, 23-29, 2011
-  date: '2011-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTnqJjAAAAAJ&pagesize=100&citation_for_view=RTnqJjAAAAAJ:u5HHmVD_uO8C
-  gsid: RTnqJjAAAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: ''
-  title: 'Interleukin-4: a cytokine to remember'
-  authors:
-  - P Sachin
-  - S Gadani
-  - J Cronk
-  - G Norris
-  - J Kipnis
-  publisher: J Immunol 189, 4213-4421, 2012
-  date: '2012-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTnqJjAAAAAJ&pagesize=100&citation_for_view=RTnqJjAAAAAJ:_kc_bZDykSQC
-  gsid: RTnqJjAAAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: ''
-  title: Bile acid metabolites predict multiple sclerosis progression and supplementation
-    is safe in progressive disease
-  authors:
-  - DC Ladakis
-  - KL Harrison
-  - MD Smith
-  - K Solem
-  - S Gadani
-  - L Jank
-  - '...'
-  publisher: Med 6 (3), 2025
-  date: '2025-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTnqJjAAAAAJ&pagesize=100&citation_for_view=RTnqJjAAAAAJ:hC7cP41nSMkC
-  gsid: RTnqJjAAAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: ''
-  title: 'Pre-existing neurological conditions and COVID-19 co-infection: Data from
-    systematic reviews, meta-analyses, and scoping reviews'
   authors:
   - AP Boruah
   - KT Thakur
@@ -713,6 +566,297 @@
   publisher: Science Translational Medicine
   date: '2022-01-05'
   link: https://doi.org/g8868m
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.nerep.2021.100003
+  title: Neurosyphilis, MOGAD or both? A case of meningoencephalomyelitis associated
+    with MOG-IgG seropositivity in a patient with syphilis
+  authors:
+  - Julie C. Gudenkauf
+  - Sachin P. Gadani
+  - Justin C. McArthur
+  - Elias S. Sotirchos
+  publisher: Neuroimmunology Reports
+  date: '2021-12-01'
+  link: https://doi.org/g8868n
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.ebiom.2021.103636
+  title: Discordant humoral and T cell immune responses to SARS-CoV-2 vaccination
+    in people with multiple sclerosis on anti-CD20 therapy
+  authors:
+  - Sachin P. Gadani
+  - Maria Reyes-Mantilla
+  - Larissa Jank
+  - Samantha Harris
+  - Morgan Douglas
+  - Matthew D. Smith
+  - Peter A. Calabresi
+  - Ellen M. Mowry
+  - Kathryn C. Fitzgerald
+  - Pavan Bhargava
+  publisher: EBioMedicine
+  date: '2021-11-01'
+  link: https://doi.org/g88679
+  orcid: 0000-0002-9555-4553
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.7759/cureus.5823
+  title: Granulomatosis with Polyangiitis Manifesting as a Symptomatic Sellar Mass
+    in a Young Woman
+  authors:
+  - Sachin P Gadani
+  - Rohini Nadgir
+  - Annika Windon
+  - Lisa Rooper
+  - Fahid Alghanim
+  publisher: Cureus
+  date: '2019-10-02'
+  link: https://doi.org/ghs4s5
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/nrn.2017.39
+  title: How and why do T cells and their derived cytokines affect the injured and
+    healthy brain?
+  authors:
+  - Anthony J. Filiano
+  - Sachin P. Gadani
+  - Jonathan Kipnis
+  publisher: Nature Reviews Neuroscience
+  date: '2017-04-27'
+  link: https://doi.org/ggzn6m
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1084/jem.20161982
+  title: Characterization of meningeal type 2 innate lymphocytes and their response
+    to CNS injury
+  authors:
+  - Sachin P. Gadani
+  - Igor Smirnov
+  - Ashtyn T. Wiltbank
+  - Christopher C. Overall
+  - Jonathan Kipnis
+  publisher: Journal of Experimental Medicine
+  date: '2016-12-19'
+  link: https://doi.org/gbgf6p
+  orcid: 0000-0002-9555-4553
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/nature18626
+  title: "Unexpected role of interferon-\u03B3 in regulating neuronal connectivity\
+    \ and social behaviour"
+  authors:
+  - Anthony J. Filiano
+  - Yang Xu
+  - Nicholas J. Tustison
+  - Rachel L. Marsh
+  - Wendy Baker
+  - Igor Smirnov
+  - Christopher C. Overall
+  - Sachin P. Gadani
+  - Stephen D. Turner
+  - Zhiping Weng
+  - Sayeda Najamussahar Peerzade
+  - Hao Chen
+  - Kevin S. Lee
+  - Michael M. Scott
+  - Mark P. Beenhakker
+  - Vladimir Litvak
+  - Jonathan Kipnis
+  publisher: Nature
+  date: '2016-07-01'
+  link: https://doi.org/f62mxs
+  orcid: 0000-0002-9555-4553
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/nn.4227
+  title: Natural killers in the brain's nursery
+  authors:
+  - Sachin P Gadani
+  - Jonathan Kipnis
+  publisher: Nature Neuroscience
+  date: '2016-01-27'
+  link: https://doi.org/g8868p
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1084/jem.2132insight2
+  title: Shedding light on IL-33 in the eye
+  authors:
+  - Sachin P. Gadani
+  - Jonathan Kipnis
+  publisher: Journal of Experimental Medicine
+  date: '2016-02-08'
+  link: https://doi.org/g8868q
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.brainres.2014.07.050
+  title: Interactions of innate and adaptive immunity in brain development and function
+  authors:
+  - Anthony J. Filiano
+  - Sachin P. Gadani
+  - Jonathan Kipnis
+  publisher: Brain Research
+  date: '2015-08-01'
+  link: https://doi.org/ghwqp8
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.neuron.2015.05.019
+  title: 'Dealing with Danger in the CNS: The Response of the Immune System to Injury'
+  authors:
+  - "Sachin\_P. Gadani"
+  - "James\_T. Walsh"
+  - "John\_R. Lukens"
+  - Jonathan Kipnis
+  publisher: Neuron
+  date: '2015-07-01'
+  link: https://doi.org/f7qks6
+  orcid: 0000-0002-9555-4553
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/ni.3145
+  title: Brainless immunity no more
+  authors:
+  - Sachin P Gadani
+  - Jonathan Kipnis
+  publisher: Nature Immunology
+  date: '2015-04-21'
+  link: https://doi.org/g8868r
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1172/JCI76210
+  title: MHCII-independent CD4+ T cells protect injured CNS neurons via IL-4
+  authors:
+  - James T. Walsh
+  - Sven Hendrix
+  - Francesco Boato
+  - Igor Smirnov
+  - Jingjing Zheng
+  - John R. Lukens
+  - Sachin Gadani
+  - Daniel Hechler
+  - "Greta G\xF6lz"
+  - Karen Rosenberger
+  - "Thomas Kammert\xF6ns"
+  - Johannes Vogt
+  - Christina Vogelaar
+  - Volker Siffrin
+  - Ali Radjavi
+  - Anthony Fernandez-Castaneda
+  - Alban Gaultier
+  - Ralf Gold
+  - Thirumala-Devi Kanneganti
+  - Robert Nitsch
+  - Frauke Zipp
+  - Jonathan Kipnis
+  publisher: Journal of Clinical Investigation
+  date: '2015-01-20'
+  link: https://doi.org/f6x9hp
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.neuron.2015.01.013
+  title: The Glia-Derived Alarmin IL-33 Orchestrates the Immune Response and Promotes
+    Recovery following CNS Injury
+  authors:
+  - "Sachin\_P. Gadani"
+  - "James\_T. Walsh"
+  - Igor Smirnov
+  - Jingjing Zheng
+  - Jonathan Kipnis
+  publisher: Neuron
+  date: '2015-02-01'
+  link: https://doi.org/f627p4
+  orcid: 0000-0002-9555-4553
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.jneuroim.2014.08.543
+  title: Chemokine-induced trafficking of T cells into the meninges through the brain
+    "gates"
+  authors:
+  - Antoine Louveau
+  - Sachin Gadani
+  - Tajie Harris
+  - Jonathan Kipnis
+  publisher: Journal of Neuroimmunology
+  date: '2014-10-01'
+  link: https://doi.org/g8868s
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.4049/jimmunol.1202246
+  title: 'IL-4 in the Brain: A Cytokine To Remember'
+  authors:
+  - Sachin P Gadani
+  - James C Cronk
+  - Geoffrey T Norris
+  - Jonathan Kipnis
+  publisher: The Journal of Immunology
+  date: '2012-11-01'
+  link: https://doi.org/gqqxmm
+  orcid: 0000-0002-9555-4553
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/nri3280
+  title: Pro-cognitive properties of T cells
+  authors:
+  - Jonathan Kipnis
+  - Sachin Gadani
+  - "No\xEBl C. Derecki"
+  publisher: Nature Reviews Immunology
+  date: '2012-08-20'
+  link: https://doi.org/ghs4g9
+  orcid: 0000-0002-9555-4553
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.2147/RRB.S16091
+  title: SSR markers developed for genetic mapping in flax (Linum usitatissimum L.)
+  authors:
+  - Chris Cullis
+  - ' Bickel'
+  - ' Gadani'
+  - ' Lukacs'
+  publisher: Research and Reports in Biology
+  date: '2011-03-01'
+  link: https://doi.org/cbshm6
+  orcid: 0000-0002-9555-4553
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/cddis.2011.80
+  title: Distribution of CD133 reveals glioma stem cells self-renew through symmetric
+    and asymmetric cell divisions
+  authors:
+  - J D Lathia
+  - M Hitomi
+  - J Gallagher
+  - S P Gadani
+  - J Adkins
+  - A Vasanji
+  - L Liu
+  - C E Eyler
+  - J M Heddleston
+  - Q Wu
+  - S Minhas
+  - A Soeda
+  - D J Hoeppner
+  - R Ravin
+  - R D G McKay
+  - R E McLendon
+  - D Corbeil
+  - A Chenn
+  - A B Hjelmeland
+  - D M Park
+  - J N Rich
+  publisher: Cell Death &amp; Disease
+  date: '2011-09-01'
+  link: https://doi.org/bckv87
   orcid: 0000-0002-9555-4553
   plugin: orcid.py
   file: orcid.yaml
