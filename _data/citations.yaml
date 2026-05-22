@@ -116,18 +116,16 @@
   orcid: 0000-0002-9555-4553
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1016/j.neuron.2015.01.013
-  title: The Glia-Derived Alarmin IL-33 Orchestrates the Immune Response and Promotes
-    Recovery following CNS Injury
+- id: doi:10.1016/j.neuron.2024.05.025
+  title: Neurodegeneration and demyelination in multiple sclerosis
   authors:
-  - "Sachin\_P. Gadani"
-  - "James\_T. Walsh"
-  - Igor Smirnov
-  - Jingjing Zheng
-  - Jonathan Kipnis
+  - Thomas Garton
+  - Sachin P. Gadani
+  - Alexander J. Gill
+  - Peter A. Calabresi
   publisher: Neuron
-  date: '2015-02-01'
-  link: https://doi.org/f627p4
+  date: '2024-10-01'
+  link: https://doi.org/g8rjcm
   orcid: 0000-0002-9555-4553
   plugin: sources.py
   file: sources.yaml
@@ -400,6 +398,19 @@
   orcid: 0000-0002-9555-4553
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1016/j.neuron.2015.05.019
+  title: 'Dealing with Danger in the CNS: The Response of the Immune System to Injury'
+  authors:
+  - "Sachin\_P. Gadani"
+  - "James\_T. Walsh"
+  - "John\_R. Lukens"
+  - Jonathan Kipnis
+  publisher: Neuron
+  date: '2015-07-01'
+  link: https://doi.org/f7qks6
+  orcid: 0000-0002-9555-4553
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1038/ni.3145
   title: Brainless immunity no more
   authors:
@@ -442,6 +453,21 @@
   orcid: 0000-0002-9555-4553
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1016/j.neuron.2015.01.013
+  title: The Glia-Derived Alarmin IL-33 Orchestrates the Immune Response and Promotes
+    Recovery following CNS Injury
+  authors:
+  - "Sachin\_P. Gadani"
+  - "James\_T. Walsh"
+  - Igor Smirnov
+  - Jingjing Zheng
+  - Jonathan Kipnis
+  publisher: Neuron
+  date: '2015-02-01'
+  link: https://doi.org/f627p4
+  orcid: 0000-0002-9555-4553
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1172/JCI82458
   title: MHCII-independent CD4+ T cells protect injured CNS neurons via IL-4
   authors:
