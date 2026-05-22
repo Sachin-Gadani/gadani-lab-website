@@ -12,7 +12,10 @@ def main(entry):
 
     # orcid api
     endpoint = "https://pub.orcid.org/v3.0/$ORCID/works"
-    headers = {"Accept": "application/json"}
+    headers = {
+        "Accept": "application/json",
+        "User-Agent": "gadani-lab-website/1.0 (https://github.com/Sachin-Gadani/gadani-lab-website; mailto:gadanis1@pitt.edu)",
+    }
 
     # get id from entry
     _id = get_safe(entry, "orcid", "")
