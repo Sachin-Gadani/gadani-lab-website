@@ -251,49 +251,6 @@ for index, source in enumerate(sources):
 
 log()
 
-log("Deduplicating citations by title")
-
-# Plugin priority: lower = preferred (sources.py has user customizations like images)
-_plugin_priority = {"sources.py": 0, "orcid.py": 1, "pubmed.py": 2, "google-scholar.py": 3}
-
-def _citation_sort_key(cit):
-    plugin = get_safe(cit, "plugin", "")
-    _id = get_safe(cit, "id", "")
-    is_preprint = "10.1101" in _id or "openrxiv" in _id.lower()
-    return (1 if is_preprint else 0, _plugin_priority.get(plugin, 99))
-
-def _last_names(authors):
-    return {a.strip().split()[-1].lower() for a in authors if a.strip()}
-
-title_seen = {}  # normalized title → index of kept citation
-to_remove = set()
-
-for i, cit in enumerate(citations):
-    title = normalize_title(get_safe(cit, "title", ""))
-    if not title:
-        continue
-    if title in title_seen:
-        j = title_seen[title]
-        kept = citations[j]
-        my_last = _last_names(get_safe(cit, "authors", []))
-        kept_last = _last_names(get_safe(kept, "authors", []))
-        if my_last & kept_last:
-            # Same paper: keep the higher-priority one
-            if _citation_sort_key(cit) < _citation_sort_key(kept):
-                to_remove.add(j)
-                title_seen[title] = i
-            else:
-                to_remove.add(i)
-    else:
-        title_seen[title] = i
-
-if to_remove:
-    log(f"Removing {len(to_remove)} duplicate(s) by title", indent=1)
-
-citations = [cit for i, cit in enumerate(citations) if i not in to_remove]
-
-log()
-
 log("Saving updated citations")
 
 
