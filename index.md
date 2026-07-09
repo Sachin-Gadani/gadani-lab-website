@@ -1,8 +1,8 @@
 ---
 ---
 
-# The Challenge
-<p style="font-size: 1.5em;">The immune and nervous systems engage in constant dialogue—but in Multiple Sclerosis, this conversation goes awry. Why do some patients progress despite treatment? Why does remyelination fail when the potential for repair exists? And is MS-related loss of neurons preventable? Our lab tackles these fundamental questions by studying neuroimmune crosstalk at the intersection of immunology, neurobiology, and translational medicine. We're building a mechanistic understanding of MS progression to unlock new therapeutic strategies.</p>
+<h3 style="text-align: center;">Exploring the Immune Drivers of CNS Degeneration, Homeostasis, and Repair</h3>
+<p style="font-size: 1.5em;">Our overarching goal is to better understand the mechanisms of neuroimmune and neurodegenerative disorders, with an emphasis on progressive multiple sclerosis, to better treat these conditions. We use unbiased, high throughput assays on patient samples to discover targets and pathways that we then study mechanistically with appropriate model systems. Our lab tackles fundamental questions by studying neuroimmune crosstalk at the intersection of immunology, neurobiology, and translational medicine.</p>
 
 {% include section.html %}
  
@@ -10,7 +10,7 @@
 
 {%
   include button.html
-  link="research"
+  link="publications"
   text="See our publications"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -22,8 +22,8 @@
 {%
   include feature.html
   image="images/index_research_ng2_dsred_cx3cr1_gfp_il33_647.png"
-  link="research"
-  title="Our Research"
+  link="publications"
+  title="Publications"
   text=text
 %}
 
@@ -31,7 +31,7 @@
 
 {%
   include button.html
-  link="projects"
+  link="research"
   text="Browse our projects"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -43,8 +43,8 @@
 {%
   include feature.html
   image="images/coronal-sc-injury-il33.png"
-  link="projects"
-  title="Our Projects"
+  link="research"
+  title="Our Research"
   flip=true
   style="bare"
   text=text
