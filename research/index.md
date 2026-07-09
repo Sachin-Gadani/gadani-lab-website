@@ -7,10 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %} Current Projects
 
-Multiple sclerosis affects about 1 in 3,000 people and is a leading cause of disability in young people. While existing treatments prevent "flares", or acute peripheral immune attacks, we have no options that substantially impact the insidious disease progression that occurs in many people or to repair and remyelinate existing lesions. Chronic, unresolving immune and glia activation in the central nervous system is a common feature seen in many neurodegenerative diseases. We believe chronic inflammation drives progression and impedes repair, but what triggers, perpetuates, or could reverse these states are open questions.
+Our overarching goal is to better understand the mechanisms of neuroimmune and neurodegenerative disorders, with an emphasis on progressive multiple sclerosis, to better treat these conditions. We use unbiased, high throughput assays on patient samples to discover targets and pathways that we then study mechanistically with appropriate model systems. Our lab tackles fundamental questions by studying neuroimmune crosstalk at the intersection of immunology, neurobiology, and translational medicine.
 
-
-We use high throughput unbiased assays from human samples to inspire  mouse models and human samples, imaging, flow cytometry, and bioinformatics to discover and validate disease-relevant pathways. Ultimately, our aim is to translate discoveries made at the bench into novel therapeutics, and we apply pre-clinical models of disease to help assess putative targets.
+Multiple sclerosis affects about 1 in 3,000 people and is a leading cause of disability in young people. While existing treatments prevent "flares", or acute peripheral immune attacks, we have no options that substantially impact the insidious disease progression that occurs in many people or to repair and remyelinate existing lesions. Chronic, unresolving immune and glia activation in the central nervous system is a common feature seen in many neurodegenerative diseases. We believe chronic inflammation drives progression and impedes repair, but what triggers, perpetuates, or could reverse these states are open questions. Current research is focused on these questions.
 
 ## 1. Beneficial mechanisms of IL-33 in neuroinflammation
 
