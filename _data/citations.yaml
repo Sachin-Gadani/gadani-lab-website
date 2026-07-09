@@ -42,7 +42,6 @@
   orcid: 0000-0002-9555-4553
   plugin: orcid.py
   file: orcid.yaml
-  image: images/dna_damage.png
 - id: doi:10.1016/j.medj.2024.09.011
   title: Bile acid metabolites predict multiple sclerosis progression and supplementation
     is safe in progressive disease
