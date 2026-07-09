@@ -1,8 +1,8 @@
 ---
 ---
 
-# The Challenge
-<p style="font-size: 1.5em;">The immune and nervous systems engage in constant dialogue—but in Multiple Sclerosis, this conversation goes awry. Why do some patients progress despite treatment? Why does remyelination fail when the potential for repair exists? And is MS-related loss of neurons preventable? Our lab tackles these fundamental questions by studying neuroimmune crosstalk at the intersection of immunology, neurobiology, and translational medicine. We're building a mechanistic understanding of MS progression to unlock new therapeutic strategies.</p>
+### Immune drivers of CNS degeneration, homeostasis, and repair
+<p style="font-size: 1.5em;">Our overarching goal is to better understand the mechanisms of neuroimmune and neurodegenerative disorders, with an emphasis on progressive multiple sclerosis, to better treat these conditions. We use unbiased, high throughput assays on patient samples to discover targets and pathways that we then study mechanistically with appropriate model systems. Our lab tackles fundamental questions by studying neuroimmune crosstalk at the intersection of immunology, neurobiology, and translational medicine.</p>
 
 {% include section.html %}
  
