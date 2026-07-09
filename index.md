@@ -10,7 +10,7 @@
 
 {%
   include button.html
-  link="research"
+  link="publications"
   text="See our publications"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -22,8 +22,8 @@
 {%
   include feature.html
   image="images/index_research_ng2_dsred_cx3cr1_gfp_il33_647.png"
-  link="research"
-  title="Our Research"
+  link="publications"
+  title="Publications"
   text=text
 %}
 
@@ -31,7 +31,7 @@
 
 {%
   include button.html
-  link="projects"
+  link="research"
   text="Browse our projects"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -43,8 +43,8 @@
 {%
   include feature.html
   image="images/coronal-sc-injury-il33.png"
-  link="projects"
-  title="Our Projects"
+  link="research"
+  title="Our Research"
   flip=true
   style="bare"
   text=text
