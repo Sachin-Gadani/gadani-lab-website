@@ -13,7 +13,7 @@
 
 .citation-image {
   position: relative;
-  width: 750px;
+  width: 440px;
   flex-shrink: 0;
 }
 
@@ -90,7 +90,7 @@
   }
   .citation-image {
     width: unset;
-    height: 750px;
+    height: 440px;
   }
 }
 
