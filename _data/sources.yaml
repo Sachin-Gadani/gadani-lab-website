@@ -15,7 +15,7 @@
 - id: doi:10.1084/jem.20161982
 - id: doi:10.1038/nature18626
 - id: doi:10.1016/j.neuron.2015.01.013
-  image: images/il33-cns-injury.png
+  image: images/coronal-sc-injury-il33.png
   description: >-
     The signals that trigger and shape inflammation after central nervous system
     injury remain poorly defined. Here we identify the nuclear alarmin IL-33,

@@ -481,7 +481,7 @@
   orcid: 0000-0002-9555-4553
   plugin: sources.py
   file: sources.yaml
-  image: images/il33-cns-injury.png
+  image: images/coronal-sc-injury-il33.png
   description: >-
     The signals that trigger and shape inflammation after central nervous system
     injury remain poorly defined. Here we identify the nuclear alarmin IL-33,
