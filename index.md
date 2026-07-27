@@ -2,7 +2,7 @@
 ---
 
 <h3 style="text-align: center;">Immune Drivers of CNS Degeneration, Homeostasis, and Repair</h3>
-<p style="font-size: 1.5em;"> Welcome! We are a new group of neuroimmunologists at Pitt. Our lab studies mechanisms underlying neuroimmune and neurodegenerative disorders, with an emphasis on progressive multiple sclerosis. We use unbiased, high throughput assays on patient samples to discover targets and pathways that we then study mechanistically with appropriate model systems. Our research lies at the intersection of immunology, neurobiology, and translational medicine. Here, you can find more information about our ongoing projects and recent publications. [Send an email](mailto:gadanis1@pitt.edu?subject=Lab%20inquiry) if interested in learning more. </p>
+<p style="font-size: 1.5em;"> Welcome! We are a new group of neuroimmunologists at Pitt. Our lab studies mechanisms underlying neuroimmune and neurodegenerative disorders, with an emphasis on progressive multiple sclerosis. We use unbiased, high throughput assays on patient samples to discover targets and pathways that we then study mechanistically with appropriate model systems. Our research lies at the intersection of immunology, neurobiology, and translational medicine. Here, you can find more information about our ongoing projects and recent publications. [Send an email](mailto:gadanis1@pitt.edu) if interested in learning more. </p>
 
 {% include section.html %}
  
