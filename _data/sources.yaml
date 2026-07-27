@@ -1,12 +1,42 @@
 - id: doi:10.1038/s41593-026-02201-7
   image: images/dna_damage.png
+  description: >-
+    Preventing the neuron loss that underlies progression in multiple sclerosis
+    remains an unmet goal, in part because the pathways of immune-mediated
+    neuronal death are poorly understood. In the experimental autoimmune
+    encephalomyelitis model we show that neurons accumulate DNA damage and die
+    through parthanatos, a caspase-independent death program, and that blocking
+    its final step of genomic fragmentation by MIF nuclease reduces both neuron
+    loss and disease severity. This work identifies parthanatos as a key driver
+    of neuronal death during neuroinflammation and a potential target for
+    neuroprotection.
 - id: doi:10.1016/j.neuron.2024.05.025
 - id: doi:10.1016/j.ebiom.2021.103636
 - id: doi:10.1084/jem.20161982
 - id: doi:10.1038/nature18626
 - id: doi:10.1016/j.neuron.2015.01.013
+  image: images/il33-cns-injury.png
+  description: >-
+    The signals that trigger and shape inflammation after central nervous system
+    injury remain poorly defined. Here we identify the nuclear alarmin IL-33,
+    expressed by oligodendrocytes and released from damaged white matter, as an
+    early regulator of the innate immune response that acts on astrocytes and
+    microglia to drive chemokine production and monocyte recruitment. Mice
+    lacking IL-33 show reduced myeloid cell infiltration and impaired recovery
+    after injury, revealing IL-33 as a mediator of immune cell recruitment to
+    the injured brain.
 - id: doi:10.4049/jimmunol.1202246
 - id: doi:10.1038/nri3280
 - id: doi:10.1016/j.neuron.2015.05.019
 - id: doi:10.7554/eLife.88414.1
   image: images/spatial-transcriptomics-scheme.png
+  description: >-
+    Meningeal inflammation is a known risk factor for the cortical gray matter
+    damage that drives progressive multiple sclerosis, yet how it injures the
+    underlying brain remains unclear. Using MRI-guided spatial transcriptomics
+    in a mouse model of autoimmune meningeal inflammation, we found broad
+    activation of inflammatory pathways at sites of meningeal inflammation but
+    only a subset of those programs, notably complement signaling and antigen
+    presentation, penetrating into the adjacent brain parenchyma. This variable
+    penetrance highlights candidate pathways in gray matter pathology and
+    provides the first spatial transcriptomic map of meningeal inflammation.
