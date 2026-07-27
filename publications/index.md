@@ -13,9 +13,9 @@ nav:
 
 {% include citation.html lookup="Autoimmune neuroinflammation leads to neuronal death via MIF" style="rich" %}
 
-{% include citation.html lookup="Spatial transcriptomics of meningeal inflammation reveals inflammatory gene signatures in adjacent brain parenchyma" style="rich" %}
+{% include citation.html lookup="Spatial Transcriptomics of Meningeal Inflammation" style="rich" %}
 
-{% include citation.html lookup="The glia-derived alarmin IL-33 orchestrates the immune response and promotes recovery following CNS injury" style="rich" %}
+{% include citation.html lookup="The glia-derived alarmin IL-33" style="rich" %}
 
 <!-- note: to get highlighted citations to have an associated picture, you have to add the image as an entry in _data/citations.yaml (image=...) -->
 
