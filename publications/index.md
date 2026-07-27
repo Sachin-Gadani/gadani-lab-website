@@ -11,13 +11,26 @@ nav:
 
 ## Highlighted
 
-{% include citation.html lookup="Autoimmune neuroinflammation leads to neuronal death via MIF" style="rich" %}
+<!--
+  Highlighted citations are looked up by their DOI id (exact match) rather than
+  by title. Title lookup uses a case-sensitive "contains" match, so a small
+  difference in capitalization silently returns an empty citation. Using the id
+  is unambiguous and avoids clashing with near-identical titles (e.g. the eLife
+  paper vs. its openRxiv preprint).
+-->
 
-{% include citation.html lookup="Spatial transcriptomics of meningeal inflammation reveals inflammatory gene signatures in adjacent brain parenchyma" style="rich" %}
+<!-- Autoimmune neuroinflammation leads to neuronal death via MIF nuclease-mediated parthanatos -->
+{% include citation.html lookup="doi:10.1038/s41593-026-02201-7" style="rich" %}
 
-{% include citation.html lookup="The glia-derived alarmin IL-33 orchestrates the immune response and promotes recovery following CNS injury" style="rich" %}
+<!-- Spatial Transcriptomics of Meningeal Inflammation ... Adjacent Brain Parenchyma -->
+{% include citation.html lookup="doi:10.7554/eLife.88414.1" style="rich" %}
 
-<!-- note: to get highlighted citations to have an associated picture, you have to add the image as an entry in _data/citations.yaml (image=...) -->
+<!-- The Glia-Derived Alarmin IL-33 Orchestrates the Immune Response and Promotes Recovery following CNS Injury -->
+{% include citation.html lookup="doi:10.1016/j.neuron.2015.01.013" style="rich" %}
+
+<!-- note: to give a highlighted citation an image, add "image: images/<file>" to
+     its entry in _data/sources.yaml (source of truth) and re-run the cite script.
+     The generated _data/citations.yaml is what the page actually reads. -->
 
 {% include section.html %}
 
