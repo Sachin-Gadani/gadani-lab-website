@@ -549,6 +549,16 @@
 
 <h2 id="highlighted">Highlighted</h2>
 
+<!--
+  Highlighted citations are looked up by their DOI id (exact match) rather than
+  by title. Title lookup uses a case-sensitive "contains" match, so a small
+  difference in capitalization silently returns an empty citation. Using the id
+  is unambiguous and avoids clashing with near-identical titles (e.g. the eLife
+  paper vs. its openRxiv preprint).
+-->
+
+<!-- Autoimmune neuroinflammation leads to neuronal death via MIF nuclease-mediated parthanatos -->
+
 <div class="citation-container">
   <div class="citation">
     
@@ -580,6 +590,11 @@
 
       
         
+          <div class="citation-description">
+            Preventing the neuron loss that underlies progression in multiple sclerosis remains an unmet goal, in part because the pathways of immune-mediated neuronal death are poorly understood. In the experimental autoimmune encephalomyelitis model we show that neurons accumulate DNA damage and die through parthanatos, a caspase-independent death program, and that blocking its final step of genomic fragmentation by MIF nuclease reduces both neuron loss and disease severity. This work identifies parthanatos as a key driver of neuronal death during neuroinflammation and a potential target for neuroprotection.
+
+          </div>
+        
 
         
 
@@ -589,11 +604,13 @@
   </div>
 </div>
 
+<!-- Spatial Transcriptomics of Meningeal Inflammation ... Adjacent Brain Parenchyma -->
+
 <div class="citation-container">
   <div class="citation">
     
-      <a class="citation-image" aria-label="citation link">
-        <img src="" alt="citation image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      <a href="https://doi.org/g8868h" class="citation-image" aria-label="Spatial Transcriptomics of Meningeal Inflammation Reveals Variable Penetrance of Inflammatory Gene Signatures into Adjacent Brain Parenchyma">
+        <img src="/images/spatial-transcriptomics-scheme.png" alt="Spatial Transcriptomics of Meningeal Inflammation Reveals Variable Penetrance of Inflammatory Gene Signatures into Adjacent Brain Parenchyma" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
       </a>
     
 
@@ -601,24 +618,29 @@
       
       
 
-      <a class="citation-title">
-        [no title info]
+      <a href="https://doi.org/g8868h" class="citation-title">
+        Spatial Transcriptomics of Meningeal Inflammation Reveals Variable Penetrance of Inflammatory Gene Signatures into Adjacent Brain Parenchyma
       </a>
 
       <div class="citation-authors" tabindex="0">
-        
+        Sachin P. Gadani, Saumitra Singh, Sophia Kim, Matthew D. Smith, Peter A. Calabresi, Pavan Bhargava
 
       </div>
 
       <div class="citation-details">
-        <span class="citation-publisher">[no publisher info]</span>
+        <span class="citation-publisher">eLife Sciences Publications, Ltd</span>
          · 
-        <span class="citation-date">[no date info]</span>
+        <span class="citation-date">11 Jul 2023</span>
          · 
-        <span class="citation-id">[no id info]</span>
+        <span class="citation-id">doi:10.7554/eLife.88414.1</span>
       </div>
 
       
+        
+          <div class="citation-description">
+            Meningeal inflammation is a known risk factor for the cortical gray matter damage that drives progressive multiple sclerosis, yet how it injures the underlying brain remains unclear. Using MRI-guided spatial transcriptomics in a mouse model of autoimmune meningeal inflammation, we found broad activation of inflammatory pathways at sites of meningeal inflammation but only a subset of those programs, notably complement signaling and antigen presentation, penetrating into the adjacent brain parenchyma. This variable penetrance highlights candidate pathways in gray matter pathology and provides the first spatial transcriptomic map of meningeal inflammation.
+
+          </div>
         
 
         
@@ -629,11 +651,13 @@
   </div>
 </div>
 
+<!-- The Glia-Derived Alarmin IL-33 Orchestrates the Immune Response and Promotes Recovery following CNS Injury -->
+
 <div class="citation-container">
   <div class="citation">
     
-      <a class="citation-image" aria-label="citation link">
-        <img src="" alt="citation image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      <a href="https://doi.org/f627p4" class="citation-image" aria-label="The Glia-Derived Alarmin IL-33 Orchestrates the Immune Response and Promotes Recovery following CNS Injury">
+        <img src="/images/il33-cns-injury.png" alt="The Glia-Derived Alarmin IL-33 Orchestrates the Immune Response and Promotes Recovery following CNS Injury" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
       </a>
     
 
@@ -641,24 +665,29 @@
       
       
 
-      <a class="citation-title">
-        [no title info]
+      <a href="https://doi.org/f627p4" class="citation-title">
+        The Glia-Derived Alarmin IL-33 Orchestrates the Immune Response and Promotes Recovery following CNS Injury
       </a>
 
       <div class="citation-authors" tabindex="0">
-        
+        Sachin P. Gadani, James T. Walsh, Igor Smirnov, Jingjing Zheng, Jonathan Kipnis
 
       </div>
 
       <div class="citation-details">
-        <span class="citation-publisher">[no publisher info]</span>
+        <span class="citation-publisher">Neuron</span>
          · 
-        <span class="citation-date">[no date info]</span>
+        <span class="citation-date">01 Feb 2015</span>
          · 
-        <span class="citation-id">[no id info]</span>
+        <span class="citation-id">doi:10.1016/j.neuron.2015.01.013</span>
       </div>
 
       
+        
+          <div class="citation-description">
+            The signals that trigger and shape inflammation after central nervous system injury remain poorly defined. Here we identify the nuclear alarmin IL-33, expressed by oligodendrocytes and released from damaged white matter, as an early regulator of the innate immune response that acts on astrocytes and microglia to drive chemokine production and monocyte recruitment. Mice lacking IL-33 show reduced myeloid cell infiltration and impaired recovery after injury, revealing IL-33 as a mediator of immune cell recruitment to the injured brain.
+
+          </div>
         
 
         
@@ -669,7 +698,9 @@
   </div>
 </div>
 
-<!-- note: to get highlighted citations to have an associated picture, you have to add the image as an entry in _data/citations.yaml (image=...) -->
+<!-- note: to give a highlighted citation an image, add "image: images/<file>" to
+     its entry in _data/sources.yaml (source of truth) and re-run the cite script.
+     The generated _data/citations.yaml is what the page actually reads. -->
   </section>
 
   
