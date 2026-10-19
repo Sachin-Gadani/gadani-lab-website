@@ -1,7 +1,7 @@
 ---
 name: Jane Cho
 image:  
-role: masters student
+role: master
 affiliation: University of Pittsburgh
 aliases:
 links:
