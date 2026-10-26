@@ -7,8 +7,6 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Our lab is hiring for all levels, including lab technician / manager and post-doctoral associate. Interested individuals should send a brief statement of interest, their CV, and contact for 2-3 professional references to <gadanis1@pitt.edu>
-
 {%
   include button.html
   type="email"
@@ -28,6 +26,8 @@ Pittsburgh, PA 15260"
 {% include section.html %}
 
 {% capture col1 %}
+
+If interested in making a financial gift to our lab's research on Multiple Sclerosis, please email Dr. Gadani at <gadanis1@pitt.edu> or Justin Meyer with the Pitt development office at <jrm233@pitt.edu>. 
 
 {%
   include figure.html
